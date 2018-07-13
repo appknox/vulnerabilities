@@ -1,0 +1,1 @@
+Does the application uses setPluginState in WebView?
