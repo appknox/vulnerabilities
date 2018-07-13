@@ -1,0 +1,1 @@
+The application is not vulnerable to object deserialization.
