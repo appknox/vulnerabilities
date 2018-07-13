@@ -1,0 +1,1 @@
+Does the application uses user-input into raw SQL query?

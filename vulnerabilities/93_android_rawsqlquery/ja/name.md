@@ -1,0 +1,1 @@
+External data in raw SQL queries
