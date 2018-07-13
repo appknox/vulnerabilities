@@ -1,0 +1,1 @@
+The application does uses proper Session Management
