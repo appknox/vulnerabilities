@@ -1,4 +1,3 @@
 
-Inclusion of input into raw SQL queries can potentially lead to a local SQL injection vulnerability in the mobile application.
-
-The correct approach is to use prepared SQL statements beyond user's control.
+生のSQLクエリに入力を含めると、モバイルアプリケーションにローカルSQLインジェクションの脆弱性が生じる可能性があります。
+正しいアプローチは、ユーザーのコントロールを超えて prepared SQL ステートメントを使用することです。
