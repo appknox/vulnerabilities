@@ -1,5 +1,4 @@
 
-Starting with Android 5.0, Google introduced the android.media.projection API which allows any third-party App to perform screen capture and screen sharing (fixed in Android 8).
+Android 5.0 からは、android.media.projection API が導入されました。このAPIを使用すると、サードパーティのアプリケーションを使用して画面キャプチャと画面共有（Android 8で修正済み）を実行できます。
 
-Such an App can capture everything on the device’s screen, including sensitive activity from all other Apps such as password keystrokes, credit card data, etc. The capturing ability remains on even if the user terminates/closes the App, but not after a reboot.
-
+このようなアプリケーションは、パスワードキーストローク、クレジットカードデータなどの他のすべてのアプリケーションからの機密性の高いアクティビティを含む、デバイスの画面上のすべてをキャプチャできます。ユーザーがアプリケーションを終了または閉じても、キャプチャ機能は終了しません。ただし再起動で終了することが出来ます。
