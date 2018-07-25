@@ -1,2 +1,1 @@
-
-Protect all sensitive windows within the App by enabling the `FLAG_SECURE` flag. This flag will prevent Apps from being able to record the protected windows. Also, the flag will prevent users from taking screenshots of these windows (by pressing the VOLUME_DOWN and POWER buttons). As such screenshots are stored on the SDCard by default, they are accessible to all Apps and sensitive data may be exposed.
+FLAG_SECUREフラグを有効にして、アプリケーション内のすべての重要なウィンドウを保護します。 このフラグは、アプリケーションが保護されたウィンドウを記録できないようにします。 また、このフラグは、ユーザーがこれらのウィンドウのスクリーンショットを撮ることも防止します（ボリュームとホームボタンの同時押下による）。 そのようなスクリーンショットはデフォルトでSDカードに保存されるため、すべてのアプリケーションからアクセスでき、機密データが漏洩する可能性があります。
