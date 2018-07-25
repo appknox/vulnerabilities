@@ -1,1 +1,1 @@
-The application does uses proper Session Management
+アプリケーションは適切なセッション管理を使用しています。
