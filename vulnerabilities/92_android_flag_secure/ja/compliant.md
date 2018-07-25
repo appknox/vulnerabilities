@@ -1,5 +1,5 @@
 
-Below is an example of how to use `FLAG_SECURE` inside your activity
+あなたのアクティビティでの `FLAG_SECURE`の使用例を以下に挙げます。
 
     public class SecureActivity extends Activity {
         @Override
