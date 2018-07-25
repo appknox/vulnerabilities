@@ -1,5 +1,5 @@
 
-Below is an example of how to use Prepeared SQL statement:
+以下は、Prepeared SQL文の使用例です。
 
     PreparedStatement pstmt = con.prepareStatement("UPDATE EMPLOYEES SET SALARY = ? WHERE ID = ?");
     pstmt.setBigDecimal(1, 153833.00)
