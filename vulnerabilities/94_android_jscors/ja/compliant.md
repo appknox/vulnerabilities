@@ -1,5 +1,5 @@
 
-Below is an example of how to prevent the application from Javascript CORS issue:
+以下は、Javascript CORS の問題を防ぐ方法の例です：
 
     WebSettings settings = getSettings();
     settings.setAllowUniversalAccessFromFileURLs(false)
