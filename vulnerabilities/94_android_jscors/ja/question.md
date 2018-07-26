@@ -1,1 +1,1 @@
-Is the application vulnerable to Javascript CORS?
+アプリケーションは Javascript CORS に対して脆弱ですか？
