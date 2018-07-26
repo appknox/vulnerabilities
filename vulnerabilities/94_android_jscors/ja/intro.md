@@ -1,2 +1,2 @@
 
-Cross-Origin Resource Sharing (CORS) is enabled in WebView. JavaScript used in mobile application can send and receive data from arbitrary remote hosts. This can be a risk if the remote host is impersonated or compromised.
+WebView でクロスソースリソース共有（CORS）が有効になっています。 モバイルアプリケーションで使用される JavaScript は、任意のリモートホストからデータを送受信できます。 これは、リモートホストが偽装されているか、または侵害されている場合には危険です。
