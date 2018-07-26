@@ -1,2 +1,2 @@
 
-Object deserialization performed on an untrusted resource (e.g. user-supplied input or external storage), can be dangerous if the data for deserialization is tampered by an attacker.
+逆シリアル化のためのデータが攻撃者によって改ざんされている場合、信頼できないリソース（ユーザー入力や外部ストレージなど）に対して実行されるオブジェクトの逆シリアル化は危険です。
