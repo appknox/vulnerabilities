@@ -1,4 +1,3 @@
+クォーテーションマークを使用して文字列を区切り、文字列の一部にすることによってSQLインジェクションが可能になります。文字列データでは使用できない区切り文字があった場合、SQLインジェクションは決して起こりませんでした。 区切り文字の問題を解決すると、SQLインジェクションの問題が解消されます。
 
-Sql injection is possible because we use quotation marks to delimit strings and also to be parts of strings, making it impossible to interpret them sometimes. If we had delimiters that could not be used in string data, sql injection never would have happened. Solving the delimiter problem eliminates the sql injection problem. Structure queries do that.
-
-Prepared statements are resilient against SQL injection, because parameter values, which are transmitted later using a different protocol, need not be correctly escaped. If the original statement template is not derived from external input, SQL injection cannot occur.
+プリペアド ステートメントは、後で異なるプロトコルを使用して送信されるパラメーター値が正しくエスケープされる必要がないため、SQLインジェクションに対して弾力性があります。 元のステートメントテンプレートが外部入力から派生していない場合、SQLインジェクションは実行できません。
