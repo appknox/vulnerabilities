@@ -1,1 +1,1 @@
-The application does not uses setPluginState in WebView.
+アプリケーションはWebViewでsetPluginStateを使用していません。
