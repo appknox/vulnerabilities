@@ -1,5 +1,5 @@
 
-Example of an insecure code in AndroidManifest file:
+AndroidManifest ファイル内の安全でないコードの例：
 
     android:allowBackup="true"
 
