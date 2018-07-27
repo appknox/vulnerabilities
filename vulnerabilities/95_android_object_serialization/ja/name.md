@@ -1,1 +1,1 @@
-Java Object Deserialization Vulnerability
+Java オブジェクトの逆シリアル化の脆弱性
