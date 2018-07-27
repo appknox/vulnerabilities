@@ -1,1 +1,1 @@
-The application backup is not enabled.
+アプリケーションのバックアップが有効になっていません。
