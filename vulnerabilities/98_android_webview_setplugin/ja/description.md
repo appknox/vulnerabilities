@@ -1,2 +1,2 @@
 
-`setPluginState` has security implication and depricated by Android. It is unsafe to use in production.
+`setPluginState` はセキュリティの意味合いを持ち、Androidによって非推奨とされています。 製作に使用するのは危険です。
