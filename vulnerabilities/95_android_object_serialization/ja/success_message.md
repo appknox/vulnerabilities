@@ -1,1 +1,1 @@
-The application is not vulnerable to object deserialization.
+アプリケーションは、オブジェクトの逆シリアル化に対して脆弱ではありません。
