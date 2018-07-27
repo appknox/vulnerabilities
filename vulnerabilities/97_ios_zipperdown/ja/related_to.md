@@ -1,4 +1,4 @@
 
-- [Zipperdown Web](https://zipperdown.org/)
-- [Zipperdown Issue in ZipArchive](https://github.com/ZipArchive/ZipArchive/issues/453)
+- [Zipperdown](https://zipperdown.org/)
+- [ZipArchiveにおける Zipperdownの問題](https://github.com/ZipArchive/ZipArchive/issues/453)
 
