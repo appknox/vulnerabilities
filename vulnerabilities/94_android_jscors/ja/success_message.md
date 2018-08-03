@@ -1,1 +1,1 @@
-The application is not vulnerable to Javascript CORS.
+このアプリケーションは Javascript CORS に脆弱ではありません。

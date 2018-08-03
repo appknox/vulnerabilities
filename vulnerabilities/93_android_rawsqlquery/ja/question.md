@@ -1,1 +1,1 @@
-Does the application uses user-input into raw SQL query?
+アプリケーションは、生のSQLクエリにユーザー入力を使用しますか？

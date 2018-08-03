@@ -1,1 +1,1 @@
-Is the application backup enabled?
+アプリケーションのバックアップは有効になっていますか？

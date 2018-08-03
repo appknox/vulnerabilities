@@ -1,4 +1,3 @@
+モバイルアプリケーションは、アプリケーションからの機密データ内部に格納される外部バックアップ機能（デフォルトの Android バックアップメカニズム）を使用します。
 
-The mobile application uses external backup functionality (default Android backup mechanism) that may store inside sensitive data from the application.
-
-In certain conditions, this may lead to information disclosure (e.g. when a backup server or the Gmail account is compromised).
+特定の状況では、これにより情報が漏洩する可能性があります（バックアップサーバーやGmailアカウントに進入された場合など）。

@@ -1,1 +1,1 @@
-Javascript CORS enabled in Webview
+Webview で Javascript CORS が有効

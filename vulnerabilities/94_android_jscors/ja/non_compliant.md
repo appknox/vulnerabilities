@@ -1,5 +1,5 @@
 
-Example of an insecure code :
+安全でないコードの例 :
 
     WebSettings settings = getSettings();
     settings.setAllowUniversalAccessFromFileURLs(true)

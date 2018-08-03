@@ -1,1 +1,1 @@
-The application does not seem to use raw SQL query.
+アプリケーションは生のSQLクエリを使用していないようです。

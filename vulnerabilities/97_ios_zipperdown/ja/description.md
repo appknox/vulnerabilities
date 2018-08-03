@@ -1,2 +1,1 @@
-
-The remote code execution occurs inside the affected app allowing a remote attacker to possess the same privileges or permissions as the vulnerable app. For instance, if a vulnerable app has permission to access the user’s address book, the ZipperDown attacker will also have access to the affected user’s address book.
+影響を受けるアプリケーションの内部でリモートコードが実行されるため、リモートの攻撃者は脆弱なアプリケーションと同じ権限またはアクセス許可を持つことができます。 たとえば、脆弱なアプリケーションにユーザーのアドレス帳にアクセスする権限がある場合、ZipperDown の攻撃者は影響を受けるユーザーのアドレス帳にもアクセスが可能です。

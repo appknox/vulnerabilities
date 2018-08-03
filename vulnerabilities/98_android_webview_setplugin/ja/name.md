@@ -1,1 +1,1 @@
-Deprecated setPluginState in WebView
+WebView の非推奨の setPluginState

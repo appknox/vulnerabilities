@@ -1,6 +1,5 @@
 
-Use the following pointers to make sure the application is not affected with ZipperDown vulnerability
+アプリケーションが ZipperDown の脆弱性の影響を受けていないことを次の設問から確認してください。
 
-- Use SSL pinning to download .zip file or any assets
-- Use the latest version of SSArchive or Ziparchive third-party decompression library
-
+- SSLピン留めを使用して.zipファイルまたは任意のアセットをダウンロードする
+- SSArchive または Zipアーカイブ解凍ライブラリの最新バージョンを使用する

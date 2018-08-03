@@ -1,1 +1,1 @@
-Is the application vulnerable to ZipperDown?
+アプリケーションは ZipperDown に対して脆弱ですか？

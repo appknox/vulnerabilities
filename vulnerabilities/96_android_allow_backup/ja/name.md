@@ -1,1 +1,1 @@
-Enabled Android Application Backup
+Androidアプリケーションバックアップが有効

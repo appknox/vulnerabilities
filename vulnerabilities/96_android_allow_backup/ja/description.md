@@ -1,2 +1,1 @@
-
-Application backup might contain sensitive information private data of the app into their PC
+アプリケーションのバックアップには、PCに保存されている重要な個人情報が含まれている可能性があります。

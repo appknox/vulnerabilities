@@ -1,5 +1,4 @@
-
-1) The application generates an access token based on the username, ID or cryptographically insecure algorithm which can be easily enumerated.
+1) アプリケーションは、ユーザー名、ID、または安全ではない暗号化アルゴリズムに基づいて、容易に列挙できるアクセストークンを生成しています。
 
     POST /api/sessions HTTP/1.1
     Host: site.com
@@ -31,9 +30,8 @@
     User-Agent: Chrome/5.5.1 (iPhone/10.0.2; iPhone OS; en_IN;)
     Content-Length: 40
 
-2) The application does not invalidate the session token at the backend. So, even after the use logs out, it is possible to make successful requests using the expired token to access the resources of the user.
+2) アプリケーションは、バックエンドでセッショントークンを無効にしません。したがって、ユーザーがログアウトした後でも、有効期限が切れたトークンを使用して正常なリクエストを行い、ユーザーのリソースにアクセスすることが可能です。
 
-3) In case of critical functionalities, the application should reject if the requests are replayed. For example, if a request is made to the server to recharge or pay the amount, on repeating the same request, the server should reject the replayed request.
+3) 重要な機能の場合、リクエストが再送されたとき、アプリケーションは拒否する必要があります。例えば、チャージまたは支払いに関するリクエストが再送された場合、サーバは再送されたリクエストを拒否するべきです。
 
-4) Session tokens does not have an expiry and they are valid for an indefinite time.
-
+4) セッショントークンに有効期限がなく、無期限に有効な状態です。

@@ -1,1 +1,1 @@
-External data in raw SQL queries
+生のSQLクエリの外部データ

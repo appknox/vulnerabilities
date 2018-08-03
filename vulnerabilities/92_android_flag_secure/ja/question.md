@@ -1,1 +1,1 @@
-Does the application protect sensitive screens from being displayed in screencasts initiated by third-party Apps?
+アプリケーションは、第三者のアプリケーションが開始したスクリーンキャストに、機密画面が表示されるのを防止しますか？

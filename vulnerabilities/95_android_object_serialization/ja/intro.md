@@ -1,5 +1,4 @@
 
-It is often convenient to serialize objects for convenient communication or to save them for later use. However, deserialized data or code can often be modified without using the provided accessor functions if it does not use cryptography to protect itself. Furthermore, any cryptography would still be client-side security - which is of course a dangerous security assumption.
+通信の利便性のためにオブジェクトをシリアル化したり、後で使用するためにオブジェクトを保存することはよくあります。 ただし、逆シリアル化されたデータまたはコードは、暗号化を使用して保護しない場合は、提供されたアクセサ関数を使用せずに変更することができます。 さらに、暗号化は依然としてクライアント側のセキュリティであり危険なセキュリティの前提です。
 
-An attempt to serialize and then deserialize a class containing transient fields will result in NULLs where the non-transient data should be. This is an excellent way to prevent time, environment-based, or sensitive variables from being carried over and used improperly.
-
+一時的なフィールドを含むクラスをシリアル化したのち、逆シリアル化しようとすると、非一時的なデータがある箇所が NULL になります。 これは、時間、環境ベースの変数、または重要な変数が持ち越されて不適切に使用されるのを防ぐ優れた方法です。

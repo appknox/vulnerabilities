@@ -1,1 +1,1 @@
-Does the application uses setPluginState in WebView?
+アプリケーションはWebViewでsetPluginStateを使用していますか？

@@ -1,7 +1,6 @@
 
-Use only serialization when you have the control over data. Use the following pointers to figure out if serialization is necessary
+データを制御するときは、シリアル化のみを使用します。シリアル化が必要かどうかを判断するには、次の点を参考にしてください。
 
-- Does the deserialization take place before authentication?
-- Does the deserialization limit which types can be deserialized?
-- Does the deserialization host have types available which can be repurposed towards malicious ends?
-
+- 認証前に逆シリアル化が行われますか？
+- どの型が逆シリアル化ができるか制限されていますか？
+- 逆シリアル化のホストには、悪意のある者が再利用できる型がありますか？

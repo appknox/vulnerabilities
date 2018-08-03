@@ -1,1 +1,1 @@
-Zipperdown Vulnerability leading to Remote Code Execution Attack
+Zipperdown の脆弱性によるリモートのコード実行

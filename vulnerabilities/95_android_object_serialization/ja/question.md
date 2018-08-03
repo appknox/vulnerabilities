@@ -1,1 +1,1 @@
-Is the application vulnerable to Object deserialization?
+アプリケーションはオブジェクトの逆シリアル化に対して脆弱ですか？

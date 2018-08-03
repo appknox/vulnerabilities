@@ -1,4 +1,3 @@
+ZipperDown 攻撃は、Man-in-the-Middle（MiTM）攻撃を開始し、暗号化されていないネットワーク上で害のない Zip ファイルを悪意のある zip ファイルに置き換えます。
 
-ZipperDown attack launches a Man-in-the-Middle (MiTM) attack and replace the benign .zip file with malicious .zip file over the unencrypted network.
-
-The app uses the ZipArchive or SSZipArchive library to decompress it. Since the ZipArchive and SSZipArchive libraries allow unzipping files in parent directories, malicious .zip file can be unzipped to overwrite app data or codes. Apps that dynamically load the codes, such as via JavaScript bridges, make it easier for an attacker to overwrite the codes and launch remote code execution attacks.
+アプリケーションは、ZipArchive または SSZipArchive ライブラリを使用して解凍します。 ZipArchiveとSSZipArchiveライブラリは親ディレクトリのファイルを解凍できるので、悪意のある zipファイルを解凍してアプリケーションデータやコードを上書きすることができます。 JavaScriptブリッジなどを介してコードを動的にロードするアプリケーションは、攻撃者がコードを上書きしてリモートコード実行攻撃を開始しやすくします。

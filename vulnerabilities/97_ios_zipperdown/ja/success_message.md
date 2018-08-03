@@ -1,1 +1,1 @@
-The application is not vulnerable to ZipperDown.
+アプリケーションは ZipperDown に対して脆弱ではありません。
