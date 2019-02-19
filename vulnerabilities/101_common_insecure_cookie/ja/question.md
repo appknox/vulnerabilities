@@ -1,0 +1,1 @@
+Does the application uses proper Session Management?
