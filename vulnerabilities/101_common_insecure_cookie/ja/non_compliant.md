@@ -1,5 +1,5 @@
 
-In Java usage,
+Java の場合,
 
     <session-config>
     <cookie-config>
@@ -7,11 +7,11 @@ In Java usage,
     </cookie-config>
     </session-config>
 
-In ASP.Net,
+ASP.Net の場合,
 
     <httpCookies requireSSL="false" />
 
-In php,
+PHP の場合,
 
     session.cookie_secure = false
 

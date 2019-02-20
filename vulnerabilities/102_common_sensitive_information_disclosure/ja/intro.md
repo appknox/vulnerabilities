@@ -1,8 +1,2 @@
 
-Data in transit or at rest needs to be secured from exposure using proper access controls and
-cryptography. Sometimes, even if cryptography is in place, it may not be sufficient as many
-application still use weak cryptographic algorithms or vulnerable hash algortihms to protect
-sensitive data. The application APIs can also reveal sensitive information if proper access
-controls are not kept in place revealing sensitive information to outside world. Also, many
-applications leave the sensitive directories open publicly which may reveal lot of sensitive
-information including internal software versions, passwords, internal IPs etc.
+送付中のデータ、及び保存されているデータは、適切なアクセスコントロール及び暗号化を使用して外部への流出を防ぐ必要があります。暗号化がされていても、機密データの保護のために使用している暗号アルゴリズムが弱い、ハッシュアルゴリズムに脆弱性があるなどの理由で、対策が不十分なアプリケーションも少なくありません。また、アプリケーションの API も外部へ機密情報が漏れるのを防ぐように適切にアクセスコントロールが施されていなければ、機密情報の流出源となりえます。機密情報を含むディレクトリが公に公開されている状態になっており、内部のソフトウェアのバージョン、パスワード、内部 IP を含む多くの機密情報が漏れている例もあります。

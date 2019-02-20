@@ -1,6 +1,6 @@
 
-It is recommended to use custom error pages and redirect the user to the same whenever an error is occured.
-Apply following changes on your web.config file to prevent information leakage by applying custom error pages.
+カスタムエラーページを使用して、エラーが発生したときにユーザをリダイレクトすることを推奨しています。
+カスタムエラーページを適用して情報漏れを防ぐには、 web.config に以下のような変更を適用してください。
 
     <System.Web>
         <customErrors mode="On" defaultRedirect="~/error/GeneralError.aspx">

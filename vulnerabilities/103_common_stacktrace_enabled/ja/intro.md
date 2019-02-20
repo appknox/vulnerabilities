@@ -1,4 +1,4 @@
 
-Application responding with stack trace information are useful to attackers and providing debugging information instead of a generic error response page is considered a bad practice. For instance, it might contain information about internal working of the application.
+スタックトレース情報付きのアプリケーションの応答は攻撃者にとって有益で、一般的なエラー応答ページの代わりにデバッグ情報を提供することは悪い習慣と考えられています。例えば、アプリケーションの内部動作についての情報も含まれている可能性もあります。
 
-An attacker can gain information such as version of software, filepath structure of the server, usernames, information about the exception caused, source code etc.
+攻撃者に、ソフトウェアのバージョン、サーバのファイルパス構成、ユーザ名、例外情報、ソースコードなどの情報を取得される可能性もあります。

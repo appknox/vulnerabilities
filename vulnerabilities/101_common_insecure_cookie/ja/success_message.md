@@ -1,1 +1,1 @@
-The application uses proper Cookie attributes
+このアプリケーションは適切に Cookie の属性を付与しています。

@@ -1,2 +1,2 @@
 
-The application server should generate access tokens which are cryptographically strong, dynamic and expires as soon as the user logs off or is inactive for a particular amount of time
+強い暗号方式で動的に生成され、ユーザがログオフ、または一定時間行動が無かった場合にすぐに無効になるアクセストークンをアプリケーションサーバ側にて生成して下さい。

@@ -1,2 +1,2 @@
 
-Stack Trace by themselves are not vulnerabilities, but reveal information which can be leveraged by an attacker. Attackers try to get this information by fuzzing and tampering the input data.
+スタックトレースはそれ自体では脆弱性ではないですが、攻撃者が利用できる情報を漏らしている可能性があります。攻撃者はファジングや入力データの改ざんによって、この情報を取得しようと試みます。

@@ -1,5 +1,5 @@
 
-Displaying information with stack trace enabled,
+スタックトレースを有効にした状態の情報表示の例,
 
     Exception in thread "main" java.lang.NullPointerException
             at com.example.myproject.Book.getTitle(Book.java:16)

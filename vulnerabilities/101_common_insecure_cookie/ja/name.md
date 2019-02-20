@@ -1,1 +1,1 @@
-Improper Session Management
+不適切なセッション管理
