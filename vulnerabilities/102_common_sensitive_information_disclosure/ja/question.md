@@ -1,1 +1,1 @@
-Does the application discloses sensitive information?
+このアプリケーションは機密情報を開示していますか？

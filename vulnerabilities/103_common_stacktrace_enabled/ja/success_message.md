@@ -1,1 +1,1 @@
-The application does not leak senstive information via stacktrace
+このアプリケーションはスタックトレースを通じて機密情報を漏えいしていません。

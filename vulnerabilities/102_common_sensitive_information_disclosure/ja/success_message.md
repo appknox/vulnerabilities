@@ -1,1 +1,1 @@
-The application does not discloses sensitive information
+このアプリケーションは機密情報を開示していません。

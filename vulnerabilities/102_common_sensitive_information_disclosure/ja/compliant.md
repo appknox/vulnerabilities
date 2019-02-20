@@ -1,4 +1,2 @@
 
-Data should never be transmitted in clear text. Sensitive Data at rest should be stored with
-proper use of encryption and proper access controls should be kept in place in order to protect
-the data exposure across users and to the outside world.
+データは決して平文で送信してはいけません。保存されている機密データには暗号化を適切に使用し、ユーザ及び外部への露出を防止するようにアクセスコントロールをする必要があります。

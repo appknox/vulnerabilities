@@ -1,1 +1,1 @@
-Stack Trace Enabled
+スタックトレースが有効

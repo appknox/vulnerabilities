@@ -1,1 +1,1 @@
-Does the application leaks out sensitive information via Stacktrace?
+このアプリケーションはスタックトレースを通じて機密情報を漏えいしていませんか？

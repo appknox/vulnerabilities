@@ -1,1 +1,1 @@
-Sensitive Information Disclosure
+機密情報の開示

@@ -1,2 +1,2 @@
 
-If the application does not manage sessions securely, an attacker may be able to remotely compromise accounts, reuse the tokens to make unauthorised API calls on behalf of other users.
+アプリケーションがセッションを安全に管理していない場合、攻撃者がリモートからアカウントを奪いトークンを再利用することで、本来のユーザに代わり不正な API コールをされてしまう可能性があります。

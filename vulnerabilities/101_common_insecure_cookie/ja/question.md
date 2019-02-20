@@ -1,1 +1,1 @@
-Does the application uses proper Session Management?
+このアプリケーションは適切なセッション管理が実装されていますか？
