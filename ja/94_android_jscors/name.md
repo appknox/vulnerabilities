@@ -1,0 +1,1 @@
+Webview で Javascript CORS が有効

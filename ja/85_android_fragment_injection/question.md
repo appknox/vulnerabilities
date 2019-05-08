@@ -1,0 +1,1 @@
+アプリケーションは Fragment Injection に対して脆弱ですか？

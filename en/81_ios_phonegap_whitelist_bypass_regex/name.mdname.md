@@ -1,0 +1,1 @@
+PhoneGap Whitelist RegEx Bypass

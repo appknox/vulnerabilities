@@ -1,0 +1,1 @@
+Does the application communicate with an external Redis server?

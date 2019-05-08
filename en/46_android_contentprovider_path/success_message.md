@@ -1,0 +1,1 @@
+Application does not seem to be vulnerable to content provider directory traversal attacks.

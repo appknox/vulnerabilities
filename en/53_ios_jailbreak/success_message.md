@@ -1,0 +1,1 @@
+The app seems to implement routines that check if device has been jailbroken.

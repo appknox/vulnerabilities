@@ -1,0 +1,1 @@
+The application has proper protection from general pasteboard.

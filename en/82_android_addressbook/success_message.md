@@ -1,0 +1,1 @@
+The Application doesn't sends Address Book over Insecured Network

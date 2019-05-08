@@ -1,0 +1,1 @@
+Is the application using deprecated version of PhonGap which is susceptible to HTTPS Bypass?

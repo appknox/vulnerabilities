@@ -1,0 +1,1 @@
+Does the PhoneGap application properly whitelist URLs

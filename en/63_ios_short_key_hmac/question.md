@@ -1,0 +1,1 @@
+Are keys used to calculate HMAC too short?

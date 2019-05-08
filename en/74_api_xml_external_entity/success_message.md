@@ -1,0 +1,1 @@
+No XML-external-entity injection vulnerabilities were found in HTTP body.

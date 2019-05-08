@@ -1,0 +1,1 @@
+アプリケーションはJavascriptInterfaceを介したリモートコード実行からは安全です。

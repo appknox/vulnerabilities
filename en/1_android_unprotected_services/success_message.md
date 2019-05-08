@@ -1,0 +1,1 @@
+Exported services in the app are sufficiently protected.

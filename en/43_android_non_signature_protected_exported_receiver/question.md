@@ -1,0 +1,1 @@
+Are any Broadcast Receivers exported without a ProtectionLevel?

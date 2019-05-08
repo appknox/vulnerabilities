@@ -1,0 +1,1 @@
+HostnameVerifier for SSLの破損

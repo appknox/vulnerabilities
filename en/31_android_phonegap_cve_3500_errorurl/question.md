@@ -1,0 +1,1 @@
+Can the application allow remote attackers to perform Error URL redirection?

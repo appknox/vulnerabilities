@@ -1,0 +1,1 @@
+HostnameVerifiers for SSL, if any, seem to be verfying hostnames properly.

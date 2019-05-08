@@ -1,0 +1,1 @@
+PhoneGap HTTPSバイパスの脆弱性

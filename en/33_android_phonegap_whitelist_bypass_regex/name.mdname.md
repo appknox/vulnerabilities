@@ -1,0 +1,1 @@
+PhoneGap HTTPS Whitelist Bypass

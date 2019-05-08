@@ -1,0 +1,1 @@
+Is the application leaking any sensitive information in SQLITE DB?

@@ -1,0 +1,1 @@
+Does the application allow copy/paste functionalities in sensitive fields?

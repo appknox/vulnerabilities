@@ -1,0 +1,1 @@
+No command injection vulnerabilities in HTTP request were found.

@@ -1,0 +1,1 @@
+Does the app implement any form of jailbreak detection?

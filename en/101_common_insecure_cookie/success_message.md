@@ -1,0 +1,1 @@
+The application uses proper Cookie attributes

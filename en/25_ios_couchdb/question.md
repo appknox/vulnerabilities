@@ -1,0 +1,1 @@
+Does this application store data in CouchDB?

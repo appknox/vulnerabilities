@@ -1,0 +1,1 @@
+Loss of HMAC security may compromise the integrity and authenticity of the data maintained.

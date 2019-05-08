@@ -1,0 +1,1 @@
+No insecure hash functions are used.

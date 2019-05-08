@@ -1,0 +1,1 @@
+UIWebView is not used in the app.

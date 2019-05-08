@@ -1,0 +1,1 @@
+This application does not use NSURLConnection to connect over Internet.

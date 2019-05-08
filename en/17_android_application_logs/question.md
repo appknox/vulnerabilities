@@ -1,0 +1,1 @@
+Is this application leaking data through logs?

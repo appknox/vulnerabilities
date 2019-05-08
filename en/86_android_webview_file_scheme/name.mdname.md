@@ -1,0 +1,1 @@
+Do not allow WebView to access sensitive local resource through file scheme

@@ -1,0 +1,1 @@
+The application uses MultiPeer Framework properly, or MultiPeer Framework is not being used.

@@ -1,0 +1,1 @@
+PhoneGap whitelist does not allow open acces.s or PhoneGap is not used

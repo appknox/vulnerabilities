@@ -1,0 +1,1 @@
+The application does not store sensitive data in Keychain.

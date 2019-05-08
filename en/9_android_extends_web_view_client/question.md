@@ -1,0 +1,1 @@
+Does the application use WebViewClients correctly and handle the onReceivedSSLError method?

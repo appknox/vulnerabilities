@@ -1,0 +1,1 @@
+Is the application vulnerable to content provider directory traversal attacks?

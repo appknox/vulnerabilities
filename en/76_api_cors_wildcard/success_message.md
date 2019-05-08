@@ -1,0 +1,1 @@
+No CORS wild character vulnerabilities were found in HTTP headers.

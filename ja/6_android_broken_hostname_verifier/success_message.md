@@ -1,0 +1,1 @@
+SSLのHostnameVerifiersがある場合、ホスト名を正しく検証しているようです。

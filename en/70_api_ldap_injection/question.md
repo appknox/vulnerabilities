@@ -1,0 +1,1 @@
+Are there LDAP injection vulnerabilities in HTTP request?

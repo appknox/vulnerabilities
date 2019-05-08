@@ -1,0 +1,2 @@
+
+Multipeer Connectivity Frameworkは、近くにあるデバイスとの接続を確立するために使用されます。

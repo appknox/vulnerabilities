@@ -1,0 +1,1 @@
+Sensitive information in Sqlite database

@@ -1,0 +1,1 @@
+Is any sensitive information is leaking through Shared Preferences?

@@ -1,0 +1,1 @@
+Application is not vulnerable to One Time Password Bypass.

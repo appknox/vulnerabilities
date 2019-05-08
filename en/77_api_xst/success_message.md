@@ -1,0 +1,1 @@
+No Cross Site Tracing vulnerabilities were found.

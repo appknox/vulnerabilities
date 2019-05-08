@@ -1,0 +1,1 @@
+Application seems to be handling WebViewClient correctly, or has no implementation of WebViewClient.

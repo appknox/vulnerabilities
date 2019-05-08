@@ -1,0 +1,1 @@
+Buffer overflow vulnerabilities were not detected in HTTP request.

@@ -1,0 +1,1 @@
+Is the application affected by CVE-3500 that allows remote attackers to change the start page?

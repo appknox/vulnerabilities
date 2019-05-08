@@ -1,0 +1,1 @@
+The application is not affected by CVE-3500, or Apache Cordova is not being used.

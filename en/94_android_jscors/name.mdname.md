@@ -1,0 +1,1 @@
+Javascript CORS enabled in Webview

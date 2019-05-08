@@ -1,0 +1,1 @@
+The application does not export any Broadcast Receivers without a ProtectionLevel.

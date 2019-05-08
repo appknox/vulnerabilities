@@ -1,0 +1,1 @@
+Remote URL Redirection Vulnerability

@@ -1,0 +1,1 @@
+Is any Android component vulnerable to Intent hijacking?

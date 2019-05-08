@@ -1,0 +1,1 @@
+The PhoneGap application seems to be using proper regex check, or is not using PhoneGap.

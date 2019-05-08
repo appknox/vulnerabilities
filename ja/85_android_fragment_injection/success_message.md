@@ -1,0 +1,1 @@
+アプリケーションはFragment Injection に対して脆弱ではありません。
