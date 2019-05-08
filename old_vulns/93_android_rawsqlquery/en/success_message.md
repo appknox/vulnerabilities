@@ -1,1 +1,0 @@
-The application does not seem to use raw SQL query.

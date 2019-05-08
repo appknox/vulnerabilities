@@ -1,1 +1,0 @@
-The application does not discloses sensitive information

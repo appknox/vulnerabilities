@@ -1,1 +1,0 @@
-Does the application discloses sensitive information?

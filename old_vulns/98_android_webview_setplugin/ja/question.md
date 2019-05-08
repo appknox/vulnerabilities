@@ -1,1 +1,0 @@
-アプリケーションはWebViewでsetPluginStateを使用していますか？

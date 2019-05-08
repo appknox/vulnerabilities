@@ -1,1 +1,0 @@
-MediaProjection: Android Service Allows Recording of Audio, Screen Activity

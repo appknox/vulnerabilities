@@ -1,1 +1,0 @@
-Does the application protect sensitive screens from being displayed in screencasts initiated by third-party Apps?

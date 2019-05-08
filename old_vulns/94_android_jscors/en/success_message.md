@@ -1,1 +1,0 @@
-The application is not vulnerable to Javascript CORS.

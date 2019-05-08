@@ -1,1 +1,0 @@
-The application does not leak senstive information via stacktrace

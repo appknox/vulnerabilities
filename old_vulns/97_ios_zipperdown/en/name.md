@@ -1,1 +1,0 @@
-Zipperdown Vulnerability leading to Remote Code Execution Attack
