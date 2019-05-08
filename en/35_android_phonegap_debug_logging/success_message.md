@@ -1,0 +1,1 @@
+PhoneGap debug logs are not enabled, or PhoneGap is not being used.

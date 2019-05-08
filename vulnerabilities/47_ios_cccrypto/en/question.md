@@ -1,1 +1,0 @@
-Does the application use insecure encryption algorithms or configurations?

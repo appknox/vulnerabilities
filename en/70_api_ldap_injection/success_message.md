@@ -1,0 +1,1 @@
+No LDAP injection vulnerabilities were found in HTTP request.

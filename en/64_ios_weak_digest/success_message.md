@@ -1,0 +1,1 @@
+No deprecated or vulnerable hash algorithms are being used.

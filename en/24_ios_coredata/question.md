@@ -1,0 +1,1 @@
+Does this application store sensitive information in CoreData?

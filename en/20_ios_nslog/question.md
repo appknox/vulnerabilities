@@ -1,0 +1,1 @@
+Is the application logging to the system logs?

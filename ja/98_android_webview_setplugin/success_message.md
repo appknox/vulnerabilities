@@ -1,0 +1,1 @@
+アプリケーションはWebViewでsetPluginStateを使用していません。

@@ -1,0 +1,1 @@
+このアプリケーションは AllowAllHostnameVerification がありますか?

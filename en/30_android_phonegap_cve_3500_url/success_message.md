@@ -1,0 +1,1 @@
+The application is not vulnerable to URL redirection vulnerability, or is not using PhoneGap.

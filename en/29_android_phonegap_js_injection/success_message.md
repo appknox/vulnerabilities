@@ -1,0 +1,1 @@
+The application does not seem to be affected by PhoneGap javascript injection.

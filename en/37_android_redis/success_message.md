@@ -1,0 +1,1 @@
+The application does not communicate with an external Redis server.

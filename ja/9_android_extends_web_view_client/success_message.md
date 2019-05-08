@@ -1,0 +1,1 @@
+アプリケーションはWebViewClientを正しく処理していないか、もしくはアプリケーションにWebViewClientの実装がないようです。

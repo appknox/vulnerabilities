@@ -1,0 +1,1 @@
+Are application activities protected?

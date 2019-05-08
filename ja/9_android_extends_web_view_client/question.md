@@ -1,0 +1,1 @@
+このアプリケーションは、onreceivedsslerrorメソッドを正しく処理するWebViewClientを使用していますか?

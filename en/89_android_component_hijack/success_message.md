@@ -1,0 +1,1 @@
+Application has no vulnerable components for Intent hijacking

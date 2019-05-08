@@ -1,0 +1,1 @@
+Does the application use proper SecKeyEncrypt implementation?

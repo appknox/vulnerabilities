@@ -1,0 +1,1 @@
+CORS Wild Character Vulnerabilities in HTTP Headers

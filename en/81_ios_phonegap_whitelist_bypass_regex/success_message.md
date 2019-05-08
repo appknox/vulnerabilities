@@ -1,0 +1,1 @@
+The app does not allow whitelist to be bypassed, or PhoneGap is not used.

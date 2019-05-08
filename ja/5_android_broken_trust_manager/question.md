@@ -1,0 +1,1 @@
+Trust Manager for SSLは正しく実装されていますか?

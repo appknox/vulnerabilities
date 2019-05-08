@@ -1,0 +1,2 @@
+
+SharedPreference内に安全でない情報が見つかりました。SharedPreferenceでは暗号化されていない情報を使用するべきではありません。

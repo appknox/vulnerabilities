@@ -1,0 +1,1 @@
+SharedPreferenceを介したデータの漏洩は検出されませんでした。

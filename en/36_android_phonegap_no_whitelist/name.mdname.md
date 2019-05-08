@@ -1,0 +1,1 @@
+PhoneGap Whitelisted URLs

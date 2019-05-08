@@ -1,0 +1,1 @@
+Are any deprecated or vulnerable hash algorithms used?

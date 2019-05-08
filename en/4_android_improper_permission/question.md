@@ -1,0 +1,1 @@
+Are protection levels of the custom permission safe?

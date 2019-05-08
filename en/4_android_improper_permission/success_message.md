@@ -1,0 +1,1 @@
+Custom permissions in the app have sufficient protection levels, or custom permissions are absent.

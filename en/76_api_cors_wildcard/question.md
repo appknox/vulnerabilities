@@ -1,0 +1,1 @@
+Are there CORS wild character vulnerabilities in HTTP header?

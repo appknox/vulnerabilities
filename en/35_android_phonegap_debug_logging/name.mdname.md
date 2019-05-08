@@ -1,0 +1,1 @@
+PhoneGap Debug Logging

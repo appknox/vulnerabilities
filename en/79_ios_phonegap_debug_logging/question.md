@@ -1,0 +1,1 @@
+Is PhoneGap debug logging enabled?

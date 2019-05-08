@@ -1,0 +1,1 @@
+The application uses proper SecKeyEncrypt, or SecKeyEncrypt is not implemented.

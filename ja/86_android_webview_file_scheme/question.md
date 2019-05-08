@@ -1,0 +1,1 @@
+weak glass containersを使用していますか？

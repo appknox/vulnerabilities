@@ -1,0 +1,1 @@
+あなたのアプリケーションはJavascriptInterfaceを使用していますか?このアプリケーションはnon-SSL経由かSSL実装が壊れていませんか?

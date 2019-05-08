@@ -1,0 +1,1 @@
+Application seems to have just the essential set of permissions required.

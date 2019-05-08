@@ -1,0 +1,1 @@
+The application does not export any service without a ProtectionLevel.

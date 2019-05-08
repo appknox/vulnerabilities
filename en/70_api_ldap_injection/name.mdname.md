@@ -1,0 +1,1 @@
+LDAP Injection Vulnerabilities in HTTP Requests

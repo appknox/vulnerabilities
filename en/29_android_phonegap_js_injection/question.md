@@ -1,0 +1,1 @@
+Does the application have PhoneGap javascript injection vulnerability?

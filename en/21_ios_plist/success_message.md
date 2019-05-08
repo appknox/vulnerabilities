@@ -1,0 +1,1 @@
+The application does not store sensitive information in Property Lists.

@@ -1,0 +1,1 @@
+Is the Trust Manager for SSL implemented properly?

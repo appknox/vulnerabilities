@@ -1,0 +1,1 @@
+Does the application sends sensitive data and Personal Identifiable Information from address book over the network

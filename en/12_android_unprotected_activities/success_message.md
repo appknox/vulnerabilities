@@ -1,0 +1,1 @@
+Activities seem to be sufficiently protected.

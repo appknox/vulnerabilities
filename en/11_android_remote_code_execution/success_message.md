@@ -1,0 +1,1 @@
+Application is safe from remote code execution through JavascriptInterface.

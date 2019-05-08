@@ -1,0 +1,1 @@
+The application does not insecurely export any activities.

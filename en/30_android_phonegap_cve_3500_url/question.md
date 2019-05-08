@@ -1,0 +1,1 @@
+Does the application use an older version of PhoneGap that allows remote attackers to perform URL redirection?

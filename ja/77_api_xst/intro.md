@@ -1,0 +1,4 @@
+
+クロスサイトトレーシング（XST）攻撃には、クロスサイトスクリプティング（XSS）とTRACEまたはTRACK HTTPメソッドを使用して、合法的なユーザーの資格情報を盗むために悪用されます。
+この攻撃手法は、2003年にJeremiah Grossmanによって発見されました。
+マイクロソフトがInternet Explorer 6 SP1で導入したHttpOnlyタグをバイパスして、JavaScriptによってCookieがアクセスされないようにしています。

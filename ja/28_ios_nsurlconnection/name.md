@@ -1,0 +1,1 @@
+非推奨のNSURLConnection

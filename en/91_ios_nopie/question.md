@@ -1,0 +1,1 @@
+Does the application have ASLR Protection?

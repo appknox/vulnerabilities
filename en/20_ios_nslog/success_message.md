@@ -1,0 +1,1 @@
+Application does not log to system logs.

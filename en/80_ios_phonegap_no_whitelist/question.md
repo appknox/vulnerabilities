@@ -1,0 +1,1 @@
+Does PhoneGap whitelist allow open access or is missing?

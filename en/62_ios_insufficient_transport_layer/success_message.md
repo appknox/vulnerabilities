@@ -1,0 +1,1 @@
+Application has SSL enabled and sufficient protection is being used to prevent information leakage.

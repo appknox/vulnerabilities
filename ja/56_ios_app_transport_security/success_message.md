@@ -1,0 +1,1 @@
+App Transport Security (ATS)は正しく設定されています。

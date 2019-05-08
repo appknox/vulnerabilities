@@ -1,0 +1,1 @@
+Does the application have a probable SSL error in implementation?

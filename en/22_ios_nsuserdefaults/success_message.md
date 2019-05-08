@@ -1,0 +1,1 @@
+This application does not store sensitive information in NSUserDefaults.

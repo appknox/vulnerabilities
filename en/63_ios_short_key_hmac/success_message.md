@@ -1,0 +1,1 @@
+Keys used to calculate HMAC, if any, are of recommended length.

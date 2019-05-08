@@ -1,0 +1,1 @@
+このアプリケーションでは、Surreptitious Sharing が使用されていない可能性があります。

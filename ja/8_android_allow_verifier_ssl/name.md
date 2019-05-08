@@ -1,0 +1,1 @@
+すべてのホスト名を許可する HostnameVerifier

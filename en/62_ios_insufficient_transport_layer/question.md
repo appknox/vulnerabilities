@@ -1,0 +1,1 @@
+Does the application use Transport Layer protection? Is HTTPS enabled globally in the application?

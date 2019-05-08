@@ -1,0 +1,1 @@
+アプリケーションは Surreptitious Sharing に対して脆弱ですか？

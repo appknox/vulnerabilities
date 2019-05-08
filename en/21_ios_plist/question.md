@@ -1,0 +1,1 @@
+Does the application store sensitive information in Property Lists (plist)?

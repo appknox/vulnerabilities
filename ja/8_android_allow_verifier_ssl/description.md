@@ -1,0 +1,2 @@
+
+ハッカーに盗聴される可能性がある AllowAllHostnameVerifierを実装しています。

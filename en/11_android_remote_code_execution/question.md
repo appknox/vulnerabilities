@@ -1,0 +1,1 @@
+Is the application using JavascriptInterface? Does the application communicate over non-SSL or broken SSL Implementation?

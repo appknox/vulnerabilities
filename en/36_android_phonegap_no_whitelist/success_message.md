@@ -1,0 +1,1 @@
+Application has proper whitelisted URLs, or does not use PhoneGap.

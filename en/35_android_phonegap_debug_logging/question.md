@@ -1,0 +1,1 @@
+Are PhoneGap application debug logs enabled?

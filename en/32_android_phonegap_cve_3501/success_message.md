@@ -1,0 +1,1 @@
+The application does not use a vulnerable version of PhoneGap, or is not using PhoneGap.

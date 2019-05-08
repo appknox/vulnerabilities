@@ -1,0 +1,1 @@
+アプリケーションが適切なSecKeyEncryptを使用するか、SecKeyEncryptが実装されていません。

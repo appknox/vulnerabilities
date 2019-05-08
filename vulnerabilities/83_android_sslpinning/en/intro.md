@@ -1,1 +1,0 @@
-Certificate Pinning is the process of associating a host with their expected X509 certificate or public key. Once a certificate or public key is known or seen for a host, the certificate or public key is associated or 'pinned' to the host. If more than one certificate or public key is acceptable. In this case, the advertised identity must match one of the elements in the pinset.
