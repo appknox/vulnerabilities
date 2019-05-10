@@ -1,1 +1,1 @@
-安全でないSSLSocketFactories
+安全でないCookieの属性
