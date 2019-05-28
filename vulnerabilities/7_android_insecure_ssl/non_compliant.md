@@ -16,4 +16,4 @@ inherits `javax.net.ssl.SSLContext`:
     }
 
 In the example above, the `InsecureSocketFactory` accepts all certificates
-silently, which even bypasses the check for trustmanagers
+silently, which even bypasses the check for trust managers

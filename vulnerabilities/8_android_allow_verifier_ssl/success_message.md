@@ -1,1 +1,1 @@
-AllowAllHostname is properly configured, or is disabled.
+AllowAllHostname is properly configured or is disabled.

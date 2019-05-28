@@ -1,6 +1,6 @@
 
 The compliant solution is given below which shows how to solve the issue
-with the non compliant code:
+with the non-compliant code:
 
     public void checkCertTrusted(X509Certificate[] chain, String authType, boolean isServer) throws CertificateException {
         try {

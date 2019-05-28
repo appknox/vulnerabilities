@@ -1,1 +1,1 @@
-Does the application have debug enabled?
+Does the application have to debug enabled?

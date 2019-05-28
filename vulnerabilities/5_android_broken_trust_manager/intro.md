@@ -15,7 +15,7 @@ correctly used, a user's sensitive data may leak via the vulnerable SSL
 communication channel.
 
 Fahl et al [Fahl
-2012](https://www.securecoding.cert.org/confluence/display/java/AA.+References#AA.References-Fahl2012)
+2012](https://wiki.sei.cmu.edu/confluence/display/java/Rule+AA.+References#RuleAA.References-Fahl2012)
 describes the following patterns of the insecure use of SSL:
 
 - Trusting All Certificates: The developer implements the
