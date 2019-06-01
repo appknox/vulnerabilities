@@ -1,0 +1,1 @@
+the potential damage that could be caused through servers being taken offline pales in comparison to the far more severe threats of cross-site scripting or SQL injection

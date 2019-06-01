@@ -1,2 +1,1 @@
-
-One or more API requests were found to be susceptible to Cross Site Tracing vulnerabilies
+A Cross-Site Tracing (XST) attack involves the use of Cross-site Scripting (XSS) and the TRACE or TRACK HTTP methods. According to RFC 2616, "TRACE allows the client to see what is being received at the other end of the request chain and use that data for testing or diagnostic information.", the TRACK method works in the same way but is specific to Microsoft's IIS web server. XST could be used as a method to steal user's cookies via Cross-site Scripting (XSS) even if the cookie has the "HttpOnly" flag set and/or exposes the user's Authorization header.

@@ -1,0 +1,1 @@
+Attackers could overwrite the affected app’s data, or even gain code execution in the context of the affected app. Note that the sandbox on both iOS and Android can effectively limit ZipperDown’s consequence.
