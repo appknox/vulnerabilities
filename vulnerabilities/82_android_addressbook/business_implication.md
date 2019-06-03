@@ -1,8 +1,7 @@
 
-In the event that a user (anonymous or verified) is able to aceess the
-Address Book of others, the business may experience:
+Leakage of personal information from AddressBook to other users or any third party
+vendors may affect the business in the following way:
 
 - Reputational Damage
 - Fraud
 - Information Theft
-

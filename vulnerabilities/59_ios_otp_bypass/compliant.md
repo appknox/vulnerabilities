@@ -1,0 +1,6 @@
+- OTP should not be re-generatable
+- OTP should not be re-usable
+- OTP should be at least of four numbers
+- OTP should not be something like 0000 or all the numbers in an otp should not be the same
+- OTP should be expired in few seconds
+- Minimum two or three wrong attemts should only be accepted after that the session should expire

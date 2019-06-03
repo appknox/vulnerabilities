@@ -1,3 +1,3 @@
 
-While using PhoneGap to develop application, always try to whitelist the
-URL via which it connects
+While using PhoneGap to develop applications, always try to whitelist the
+URLs via which it connects

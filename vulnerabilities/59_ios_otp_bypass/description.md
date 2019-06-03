@@ -8,4 +8,3 @@ We used following approaches to check if the OTP could be bypassed:
 - Check if the OTP could be brute-forced by requesting wrong OTP until a correct OTP can be verified
 - Check the expiry time of a generated OTP
 - Check the number of wrong attempts accepted to verify an OTP
-

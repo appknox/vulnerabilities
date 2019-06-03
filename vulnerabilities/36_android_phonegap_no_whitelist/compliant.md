@@ -28,4 +28,4 @@ Access to all domains, for example, google.com and developer.mozilla.org:
 
     <access origin="*" />
 
-This is the default value for newly created CLI projects which not secured.
+This is the default value for newly created CLI projects which is not secured.
