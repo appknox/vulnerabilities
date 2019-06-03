@@ -12,6 +12,8 @@ their priority level for receiving ordered broadcasts. Sticky broadcasts
 remain accessible after they have been delivered and are re-broadcast to
 future Receivers.
 
+If a Receiver has either Intent Filters included or has 
+`android:exported="true"` attribute set, it is exposed to external entities. 
 Exported Broadcast Receiver can be called by any other malicious
 application installed in the phone to invoke the Broadcast Receiver
-leading to XAS (Cross Application Scripting)
+leading to XAS (Cross Application Scripting).
