@@ -1,5 +1,5 @@
 
-Below is an example of how to prevent the application from getting backed-up via adb in your AndroidManifest file:
+Below is an example of how to prevent the application from getting backed-up in your AndroidManifest file:
 
-    android:allowBackup="false"
+    <application android:allowBackup="false" ...>
 
