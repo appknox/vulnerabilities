@@ -3,3 +3,4 @@ It is often convenient to serialize objects for convenient communication or to s
 
 An attempt to serialize and then deserialize a class containing transient fields will result in NULLs where the non-transient data should be. This is an excellent way to prevent time, environment-based, or sensitive variables from being carried over and used improperly.
 
+In Android <5.0, java.io.ObjectInputStream did not check whether the Object that is being deserialized is actually serializable. This means that ObjectInputStream is used on untrusted inputs allows attackers to execute arbitrary code via a crafted finalize method for a serialized object.
