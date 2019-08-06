@@ -1,5 +1,4 @@
 
-Starting with Android 5.0, Google introduced the android.media.projection API which allows any third-party App to perform screen capture and screen sharing (fixed in Android 8).
+Starting with Android 5.0, Google introduced the **MediaProjection API** (`android.media.projection`) which allows any third-party app to perform screen capture, screen sharing and record audio. Such an app can capture everything on the device’s screen, including sensitive activity from any other app (eg: password keystrokes, credit card data, etc). The capturing ability remains on even if the user terminates/closes the app, but not after a reboot.
 
-Such an App can capture everything on the device’s screen, including sensitive activity from all other Apps such as password keystrokes, credit card data, etc. The capturing ability remains on even if the user terminates/closes the App, but not after a reboot.
-
+Enabling window flag **FLAG_SECURE** (`WindowManager.LayoutParams.FLAG_SECURE`) treat the content of the window as secure, preventing it from appearing in screenshots or from being viewed on non-secure displays. It will show a black screen for the app window to the non-secure screen capturing done by 3rd-party apps. It prevents screenshot from being taken manually as well. This functionality is not global for the entire app, but can be set on specific screens which can be more sensitive, and not set on others.
