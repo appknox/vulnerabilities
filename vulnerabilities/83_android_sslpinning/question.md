@@ -1,1 +1,1 @@
-Does the application has Certificate Pinning enabled
+Does the application has Certificate Pinning enabled?
