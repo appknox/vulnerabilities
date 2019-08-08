@@ -1,0 +1,5 @@
+- OTP is 0000
+- OTP can be re-generated
+- OTP can be re-used
+- OTP can be used after an hour
+- Any number of attemts can be taken to submit the OTP
