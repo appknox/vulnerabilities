@@ -1,2 +1,2 @@
-
-"HTTPOnly" cookies cannot be read by client-side scripts, therefore marking a cookie as HTTPOnly can provide an additional layer of protection against cross-site scripting attacks.
+"HTTPOnly" cookies cannot be read by client-side scripts, therefore marking a cookie as HTTPOnly can provide an additional layer of protection against cookie stealing through cross-site scripting attacks.
+"Secure" cookies are sent only over HTTPS connections hence any browsers which support the secure flag will only send cookies with the secure flag when the request is going to a HTTPS page preventing the cookies from being observed by unauthorized parties.
