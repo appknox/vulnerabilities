@@ -1,0 +1,1 @@
+The application uses obfuscation to mitigate the threat of reverse engineering
