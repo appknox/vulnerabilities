@@ -9,7 +9,7 @@ def generate_translation_json():
     file_names = os.listdir(folder_names[0])
     for folder_name in folder_names:
         vulnerability = {}
-        vulnerability['vulnerability_id'] = folder_name
+        vulnerability['vulnerability_id'] = int(folder_name.split('_')[0])
         for file_name in file_names:
             file_handle = open(os.path.join(folder_name, file_name), 'r')
             field_name = file_name.split('.')[0]
