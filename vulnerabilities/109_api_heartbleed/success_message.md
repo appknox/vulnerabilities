@@ -1,0 +1,1 @@
+The the host is not vulnerable to HEARTBLEED bug
