@@ -1,3 +1,3 @@
 
-Implements AllowAllHostname verifier which might allow hacker to
+Implements AllowAllHostname verifier which might allow the hacker to
 eavesdrop into the connection.

@@ -1,3 +1,3 @@
 
-Application seems to be using extra permissions which are not really
+The application seems to be using extra permissions which are not really
 needed
