@@ -1,3 +1,4 @@
+
 Disable the TRACE method on your Webserver.
 
 Following are the configurations you can do depending on what kind of server is used:

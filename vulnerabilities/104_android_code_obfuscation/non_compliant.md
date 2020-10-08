@@ -3,7 +3,6 @@ Sample `proguard-rules.pro` lines which fails obfuscation when used:
 
     -dontobfuscate
 
-
 Or if no proguard or obfuscation is used then you can use number of freely
 available Java decompilers that can
 recreate source code from Java bytecode (executables or libraries).
