@@ -1,1 +1,1 @@
-he the host is not vulnerable to OpenSSL CCS Injection
+The the host is not vulnerable to OpenSSL CCS Injection

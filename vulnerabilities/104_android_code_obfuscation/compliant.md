@@ -1,7 +1,6 @@
 
 To enable shrinking, obfuscation, and optimization, using proguard include the following in your project-level `build.gradle` file.
 
-
     android {
         buildTypes {
             release {
@@ -27,7 +26,6 @@ To enable shrinking, obfuscation, and optimization, using proguard include the f
 
 Sample `proguard-rules.pro` which you can use to obfuscate code:
 
-
     // Basic proguard rules
     -optimizations !code/simplification/arithmetic
     -keepattributes <em>Annotation</em>
@@ -42,11 +40,11 @@ Sample `proguard-rules.pro` which you can use to obfuscate code:
 
     // Removing logging code
     -assumenosideeffects class android.util.Log {
-    public static *** d(â€¦);
-    public static *** v(â€¦);
-    public static *** i(â€¦);
-    public static *** w(â€¦);
-    public static *** e(â€¦);
+    public static *** d();
+    public static *** v();
+    public static *** i();
+    public static *** w();
+    public static *** e();
     }
 
     // Crashlytics code as given below which one can exclude
