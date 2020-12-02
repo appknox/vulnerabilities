@@ -1,0 +1,1 @@
+A successful XSS attack leads to an attacker controlling the victim’s browser or account on the vulnerable web application. Although XSS is enabled by vulnerable pages in a web application, the victims of an XSS attack are the application's users, not the application itself. 

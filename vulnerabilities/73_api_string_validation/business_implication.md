@@ -1,0 +1,1 @@
+String validation should always be done because it prevents a number of attacks that you may not foresee. This technique should happen as soon as data comes in, and invalid input should be rejected without further consideration.

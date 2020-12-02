@@ -1,0 +1,1 @@
+An Attacker can try to steal login credentials, session IDs or other sensitive information

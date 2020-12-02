@@ -1,0 +1,17 @@
+ReDoS via Regex Injection
+The following example checks if the username is part of the password entered by the user.
+
+String userName = textBox1.Text;
+String password = textBox2.Text;
+Regex testPassword = new Regex(userName);
+Match match = testPassword.Match(password);
+if (match.Success)
+{
+    MessageBox.Show("Do not include name in password.");
+}
+else
+{
+    MessageBox.Show("Good password.");
+}
+If an attacker enters ^(([a-z])+.)+[A-Z]([a-z])+$ as a username and aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa! as a password, the program will hang.
+
