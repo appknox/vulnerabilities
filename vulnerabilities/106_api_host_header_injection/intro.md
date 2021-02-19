@@ -11,3 +11,4 @@ input to cause the web server to:
 - cause a redirect to an attacker-controlled domain
 - perform web cache poisoning
 - manipulate password reset functionality
+
