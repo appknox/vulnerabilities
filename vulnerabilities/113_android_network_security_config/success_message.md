@@ -1,0 +1,1 @@
+The application has properly configured network security configuration
