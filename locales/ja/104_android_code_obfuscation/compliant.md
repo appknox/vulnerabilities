@@ -1,0 +1,1 @@
+To enable shrinking, obfuscation, and optimization, using proguard include the following in your project-level build.gradle file.
