@@ -1,0 +1,1 @@
+Sample proguard-rules.pro lines which fails obfuscation when used:
