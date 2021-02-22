@@ -40,11 +40,11 @@ Sample `proguard-rules.pro` which you can use to obfuscate code:
 
     // Removing logging code
     -assumenosideeffects class android.util.Log {
-    public static *** d();
-    public static *** v();
-    public static *** i();
-    public static *** w();
-    public static *** e();
+        public static *** d();
+        public static *** v();
+        public static *** i();
+        public static *** w();
+        public static *** e();
     }
 
     // Crashlytics code as given below which one can exclude

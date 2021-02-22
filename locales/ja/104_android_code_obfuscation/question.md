@@ -1,1 +1,1 @@
-Does the application has code obfuscation to protect from reverse engineering?
+アプリケーションには、リバースエンジニアリングから保護するためのコードの難読化がありますか？

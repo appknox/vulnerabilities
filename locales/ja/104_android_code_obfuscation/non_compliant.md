@@ -1,20 +1,15 @@
 
-Sample `proguard-rules.pro` lines which fails obfuscation when used:
+使用すると難読化に失敗する proguard-rules.pro 行の例:
 
     -dontobfuscate
 
 
-Or if no proguard or obfuscation is used then you can use number of freely
-available Java decompilers that can
-recreate source code from Java bytecode (executables or libraries).
+もし proguard も難読化もいずれも使用されていない場合は、Java バイトコードからソースコードを再現することが出来る無料の Java デコンパイラを使用することも可能です。
 
-Popular decompilers include:
+広く使用されているデコンパイラの一例として以下が挙げられます。
 
-  - [Bytecode Viewer](https://bytecodeviewer.com) - A Java 8 Jar &
-    Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger
-    & More)
-  - [CFR](http://www.benf.org/other/cfr/) - Another Java decompiler
-  - [JDGui](http://jd.benow.ca/) - Yet another fast Java decompiler
-  - [Fernflower](https://github.com/fesh0r/fernflower) - An analytical
-    decompiler for Java
-  - [JadX](https://github.com/skylot/jadx) - tool to decompile APK and DEX files
+- [Bytecode Viewer](https://bytecodeviewer.com) - Java 8 jar およびAndroid APK をリバースエンジニアリングするセットです（デコンパイラ、エディタ、デバッガその他）
+- [CFR](http://www.benf.org/other/cfr/) - Javaのデコンパイラです。
+- [JDGui](http://jd.benow.ca/) - こちらも Java のデコンパイラです。
+- [Fernflower](https://github.com/fesh0r/fernflower) - Java のデコンパイラです。
+- [JadX](https://github.com/skylot/jadx) - APK ファイル、DEX ファイルをデコンパイルするためのツールです。
