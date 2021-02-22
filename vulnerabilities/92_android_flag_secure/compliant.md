@@ -1,13 +1,10 @@
 
-Below is an example of how to use `FLAG_SECURE` inside your activity
+Below is an example of `FLAG_SECURE` usage in an Activity to protect it from non-secure screen captures
 
     public class SecureActivity extends Activity {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-
-            // Set the Secure flag for this Window
-            getWindow().setFlags(LayoutParams.FLAG_SECURE, LayoutParams.FLAG_SECURE);
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
         }
     }
-

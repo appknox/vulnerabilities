@@ -1,27 +1,61 @@
 
-Certificate Pinning can be done with these two options:
+Certificate pinning is done by providing a set of certificates by hash of 
+the public key (`SubjectPublicKeyInfo` of the X.509 certificate). 
+A certificate chain is then valid only if the certificate chain contains 
+at least one of the pinned public keys.
 
-You can
-1. pin the certificate or
-2. pin the public key
+#### Pinning Using Network security configuration (preferred):
 
-If you choose public keys, you have two additional choices:
-- pin the `subjectPublicKeyInfo` or
-- pin one of the concrete types such as `RSAPublicKey` or `DSAPublicKey`.
+Since Android N, the preferred way for implementing pinning is by 
+leveraging Android's Network Security Configuration feature, which lets 
+apps customize their network security settings in a safe, declarative 
+configuration file without modifying app code.
 
-The three choices are explained below in more detail. I would encourage you to pin the subjectPublicKeyInfo because it has the public parameters (such as {e,n} for an RSA public key) and contextual information such as an algorithm and OID. The context will help you keep your bearings at times, and the figure to the right shows the additional information available.
+*res/xml/network_security_config.xml:*
 
-### Certificate
+    <?xml version="1.0" encoding="utf-8"?>
+    <network-security-config>
+        <domain-config>
+            <domain includeSubdomains="true">example.com</domain>
+            <pin-set expiration="2025-01-01">
+                <pin digest="SHA-256">7HIpactkIAq2Y49orFOOQKurWxmmSFZhBCoQYcRhJ3Y=</pin>
+                <pin digest="SHA-256">fwza0LRMXouZHRC8Ei+4PyuldPDcf3UKgO/04cDM1oE=</pin>
+            </pin-set>
+        </domain-config>
+    </network-security-config>
 
-The certificate is easiest to pin. You can fetch the certificate out of band for the website, have the IT folks email your company certificate to you, use openssl s_client to retrieve the certificate etc. At runtime, you retrieve the website or server's certificate in the callback. Within the callback, you compare the retrieved certificate with the certificate embedded within the program. If the comparison fails, then fail the method or function. There is a downside to pinning a certificate. If the site rotates its certificate on a regular basis, then your application would need to be updated regularly. For example, Google rotates its certificates, so you will need to update your application about once a month (if it depended on Google services). Even though Google rotates its certificates, the underlying public keys (within the certificate) remain static.
+TrustKit acts as a polyfill for old Android versions that not support Network Security Configuration. 
 
-### Public Key
+#### Pinning with OkHttp:
 
-Public key pinning is more flexible but a little trickier due to the extra steps necessary to extract the public key from a certificate. As with a certificate, the program checks the extracted public key with its embedded copy of the public key. There are two downsides to public key pinning. First, it's harder to work with keys (versus certificates) since you must extract the key from the certificate. Extraction is a minor inconvenience in Java and .Net, buts it's uncomfortable in Cocoa/CocoaTouch and OpenSSL. Second, the key is static and may violate key rotation policies.
+OkHttp provides a mechanism that makes implementing certificate pinning easy, 
+as it only requires creating an instance of CertificatePinner.
 
-### Hashing
+    import com.squareup.okhttp.CertificatePinner;
 
-While the three choices above used DER encoding, its also acceptable to use a hash of the information. In fact, the original sample programs were written using digested certificates and public keys. The samples were changed to allow a programmer to inspect the objects with tools like dumpasn1 and other ASN.1 decoders.
+&nbsp;
 
-Hashing also provides three additional benefits. First, hashing allows you to anonymize a certificate or public key. This might be important if you application is concerned about leaking information during decompilation and re-engineering. Second, a digested certificate fingerprint is often available as a native API for many libraries, so its convenient to use. Finally, an  organization might want to supply a reserve (or back-up) identity in  case the primary identity is compromised. Hashing ensures your adversaries  do not see the reserved certificate or public key in advance of its use. In fact,  Google's IETF draft websec-key-pinning uses the technique.
+    CertificatePinner certPinner = new CertificatePinner.Builder()
+        .add("example.com", "sha256/7HIpactkIAq2Y49orFOOQKurWxmmSFZhBCoQYcRhJ3Y=")
+        .add("example.com", "sha256/fwza0LRMXouZHRC8Ei+4PyuldPDcf3UKgO/04cDM1oE=")
+        .build();
 
+    OkHttpClient okHttpClient = new OkHttpClient();
+    okHttpClient.setCertificatePinner(certPinner);
+
+&nbsp;
+
+    Request request = new Request.Builder()
+        .url("https://" + hostname)
+        .build();
+    okHttpClient.newCall(request).execute();
+
+
+#### Pinning with Retrofit:
+
+With Retrofit being built on top of OkHttp, configuring it for pinning is as simple as setting up an OkHttpClient as shown above and supplying that to Retrofit.Builder.
+
+    Retrofit retrofit = new Retrofit.Builder()
+        .baseUrl("https://example.com")
+        .client(okHttpClient)
+        .build();
