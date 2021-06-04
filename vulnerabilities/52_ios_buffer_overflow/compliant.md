@@ -17,7 +17,7 @@ An example where the binary is encrypted:
     - iOS applications usually use `[stack canaries]()`
     - therefore you should find certain symbols inside the binary
         (like `_stack_chk_guard` and `_stack_chk_fail`)
-- Automatic Reference Couting
+- Automatic Reference Counting
     - this option can be enabled by activating the compiler option
       `Objective-C Automatic Reference Counting`
     - binaries built with this option should include symbols called

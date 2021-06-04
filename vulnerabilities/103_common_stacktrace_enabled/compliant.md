@@ -1,5 +1,5 @@
 
-It is recommended to use custom error pages and redirect the user to the same whenever an error is occured.
+It is recommended to use custom error pages and redirect the user to the same whenever an error is occurred.
 Apply following changes on your web.config file to prevent information leakage by applying custom error pages.
 
     <System.Web>

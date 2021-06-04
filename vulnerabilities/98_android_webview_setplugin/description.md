@@ -1,2 +1,2 @@
 
-`setPluginState` has security implication and depricated by Android. It is unsafe to use in production.
+`setPluginState` has security implication and deprecated by Android. It is unsafe to use in production.

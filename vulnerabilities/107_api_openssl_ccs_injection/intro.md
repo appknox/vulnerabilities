@@ -1,5 +1,5 @@
 
-OpenSSL’s flaw with ChangeCipherSpec processings makes it possible for
+OpenSSL’s flaw with ChangeCipherSpec processing makes it possible for
 malicious third parties to intermediate specific communication.
 Through this bug, attackers are able to enforce OpenSSL servers and clients
 to use weak key materials.

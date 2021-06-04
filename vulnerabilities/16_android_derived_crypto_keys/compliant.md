@@ -5,7 +5,7 @@ encryption:
 - If AES encryption is used, always pair it with CBC (Cipher Block Chaining)
 - Never use just AES as encryption because it defaults to AES/ECB (Electronic Codebook)
 - Always use padding with the encryption, for example, AES/CBC/PKCS7 is stronger than just AES/CBC
-- Never use older algorithim like DES (Data Encryption Standard)
+- Never use older algorithm like DES (Data Encryption Standard)
 - Assume that the network layer is not secure and may potentially be hostile and eavesdropping.
 - Enforce the use of SSL/TLS for all transport channels in which
   sensitive information, session tokens, or other sensitive data is

@@ -5,7 +5,7 @@ The following code inherits `javax.net.ssl.SSLContext`:
         HostnameVerifier hv = new HostnameVerifier() {
             @Override
             public boolean verify(String hostname, SSLSession session) {
-                // Always return true -> Accespt any host names
+                // Always return true -> Accept any host names
                 return true;
             }
         };

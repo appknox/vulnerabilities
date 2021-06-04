@@ -1,1 +1,1 @@
-No occurences of Insecure Direct Object References were found.
+No occurrences of Insecure Direct Object References were found.

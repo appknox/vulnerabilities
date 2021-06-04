@@ -28,6 +28,6 @@ If the attacker enters a valid user name securecoding and enters 'OR
 username = 'securecoding for the password argument, the SQL statement
 evaluates to select \* from db\_user where username = '' OR username =
 'securecoding' and password='', consequently bypassing the login
-password check. Similarly, an input ofsomeuser' OR '1' = '1 would bypass
+password check. Similarly, an input like user' OR '1' = '1 would bypass
 both the user name and password checks, granting the attacker
 unrestricted access.
