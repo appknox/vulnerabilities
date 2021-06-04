@@ -1,5 +1,5 @@
 
-Following is an example of insecure implemntation
+Following is an example of insecure implementation
 
     WebSettings settings = webView.getSettings();
     settings.setPluginsEnabled(true);

@@ -16,6 +16,6 @@ security features of the platform. The main [security features of iOS](http://ww
       apps
 - Memory Management
     - Automatic Reference Counting (ARC) protects applications
-      from memory coruption issues by letting the compiler do the
+      from memory corruption issues by letting the compiler do the
       memory management stuff
 

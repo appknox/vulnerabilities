@@ -1,1 +1,1 @@
-The application does not leak senstive information via stacktrace
+The application does not leak sensitive information via stacktrace

@@ -1,6 +1,6 @@
 
 The code example shows how to verify hostname using a
-wrappper `HostnameVerifier` which also checks for custom loaded certificates
+wrapper `HostnameVerifier` which also checks for custom loaded certificates
 
     public HostnameVerifier wrapHostnameVerifier(final HostnameVerifier defaultVerifier) {
         if (defaultVerifier == null)

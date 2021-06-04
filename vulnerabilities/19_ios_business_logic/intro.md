@@ -9,5 +9,5 @@ Too often, the business logic category is used for vulnerabilities that
 can't be scanned for automatically. This makes it very difficult to
 apply any kind of categorization scheme. Business logic problems are
 different from authentication problems and every other category. There
-are many signficant business logic vulnerabilities, but they are far
+are many significant business logic vulnerabilities, but they are far
 less common than the type of items.
