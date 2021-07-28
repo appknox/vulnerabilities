@@ -1,0 +1,1 @@
+Is the application’s authentication vulnerable to biometric bypass through Local Authentication API?
