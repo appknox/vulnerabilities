@@ -1,2 +1,1 @@
-Java source code is typically compiled into Java bytecode – the instruction set of the Java virtual machine. The compiled Java bytecode can be easily reversed engineered back into source code by freely available decompilers. Bytecode Obfuscation is the process of modifying Java bytecode (executable or library) so that it is much harder to read and understand for a hacker but remains fully functional.
-
+Java のソースコードは、通常、Java の仮想マシンの命令セットである Java バイトコードにコンパイルされます。 コンパイルされたJavaバイトコードは、自由に利用できるデコンパイラによって簡単にリバースエンジニアリングされ、ソースコードに戻すことができます。 バイトコード難読化とは、Javaバイトコード（実行ファイルやライブラリ）を修正するプロセスのことで、攻撃者が読んだり理解したりするのをはるかに困難にし、完全な機能を維持します。
