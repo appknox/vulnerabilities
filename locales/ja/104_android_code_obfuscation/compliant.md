@@ -1,5 +1,5 @@
 
-To enable shrinking, obfuscation, and optimization, using proguard include the following in your project-level `build.gradle` file.
+圧縮、難読化、最適化を有効にするには、プロジェクトレベルの `build.gradle` ファイルに以下を含めたうえで proguard を使用してください。
 
 
     android {
@@ -25,7 +25,7 @@ To enable shrinking, obfuscation, and optimization, using proguard include the f
     }
 
 
-Sample `proguard-rules.pro` which you can use to obfuscate code:
+コードを難読化する `proguard-rules.pro` の例として以下が挙げられます。
 
 
     // Basic proguard rules
@@ -42,11 +42,11 @@ Sample `proguard-rules.pro` which you can use to obfuscate code:
 
     // Removing logging code
     -assumenosideeffects class android.util.Log {
-    public static *** d(â€¦);
-    public static *** v(â€¦);
-    public static *** i(â€¦);
-    public static *** w(â€¦);
-    public static *** e(â€¦);
+        public static *** d();
+        public static *** v();
+        public static *** i();
+        public static *** w();
+        public static *** e();
     }
 
     // Crashlytics code as given below which one can exclude
