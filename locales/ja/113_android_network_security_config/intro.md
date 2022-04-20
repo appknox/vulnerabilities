@@ -1,9 +1,5 @@
-
-The Network Security Configuration feature lets apps customize their network security
-settings in a safe, declarative configuration file without modifying app code. These
-settings can be configured for specific domains and for a specific app. The key
-capabilities of this feature are as follows:
-- **Custom trust anchors**: Customize which Certificate Authorities (CA) are trusted for an app's secure connections. For example, trusting particular self-signed certificates or restricting the set of public CAs that the app trusts.
-- **Debug-only overrides**: Safely debug secure connections in an app without added risk to the installed base.
-- **Cleartext traffic opt-out**: Protect apps from accidental usage of cleartext traffic.
-- **Certificate pinning**: Restrict an app's secure connection to particular certificates.
+ネットワーク セキュリティ構成機能により、アプリのコードを変更しなくても、安全な宣言型構成ファイルでアプリのネットワーク セキュリティの設定をカスタマイズできます。これらの設定は、特定のドメインおよび特定のアプリに対して構成できます。主な機能は次のとおりです。
+-**カスタム トラスト アンカー**: アプリのセキュアな接続のためにどの認証局（CA）を信頼するかをカスタマイズできます。たとえば、特定の自己署名証明書や制限された一連の公的 CA を信頼できます。
+-**デバッグ限定のオーバーライド**: インストール ベースに対する追加リスクなしに、アプリのセキュアな接続を安全にデバッグできます。
+-**平文 トラフィックのオプトアウト**: 平文 トラフィックの意図しない使用からアプリを保護できます。
+-**証明書のピン留め**: アプリのセキュアな接続を特定の証明書に制限します。

@@ -1,3 +1,1 @@
-
-        An attacker can gain sensitive information which can result in loss of confidential data.
-        
+攻撃者は機密情報を入手することができ、その結果、機密データが失われる可能性があります。

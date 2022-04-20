@@ -1,1 +1,1 @@
-Network Security Misconfiguration
+ネットワークセキュリティの誤った設定
