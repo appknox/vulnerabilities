@@ -1,6 +1,2 @@
 
-This technique allows the user to secure the communication in the application
-by specifying proper values to the flags which are present in the network security
-configuration file. If implemented correctly it can help in securing the application
-by communicating only on secure protocols like HTTPS. It can also be used to implement
-certificate pinning by using the SHA-256 hashes of the public certificate.
+ネットワークセキュリティ設定ファイルに存在するフラグに特定の適切な値を設定することでユーザーのアプリケーションの通信をセキュアにします。正しく実装されていれば、HTTPSのような安全なプロトコルのみで通信を行うことで、アプリケーションの安全性を確保できる可能性があります。また、公開証明書のSHA-256ハッシュを利用して、証明書のピン留めを実施することも可能です。

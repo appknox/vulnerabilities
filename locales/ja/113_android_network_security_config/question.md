@@ -1,1 +1,1 @@
-Does the application has misconfigured Network Security Configuration?
+このアプリケーションはネットワークセキュリティの誤った設定をしていませんか？

@@ -1,5 +1,5 @@
 
-The following is a good network security configuration:
+以下は良いネットワーク設定の例です:
 
     <?xml version="1.0" encoding="utf-8"?>
     <network-security-config>

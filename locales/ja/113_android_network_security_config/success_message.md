@@ -1,1 +1,1 @@
-The application has properly configured network security configuration
+アプリケーションは適切なネットワークセキュリティの設定をしています。
