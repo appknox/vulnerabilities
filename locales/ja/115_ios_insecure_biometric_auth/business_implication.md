@@ -1,3 +1,1 @@
-
-In an event, if an attacker can bypass biometric authentication then an attacker can
-perform malicious activities which can result in compromising the victim's data.
+もし攻撃者が生体認証をバイパスすることができれば、攻撃者は悪意ある行動をとることができ、その結果、被害者のデータを危険にさらす可能性があります。
