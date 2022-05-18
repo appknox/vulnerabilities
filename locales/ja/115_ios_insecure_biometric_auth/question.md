@@ -1,1 +1,1 @@
-Is the application’s authentication vulnerable to biometric bypass through Local Authentication API?
+アプリケーションの認証は、Local Authentication APIを介した生体認証バイパスに対して脆弱ですか？
