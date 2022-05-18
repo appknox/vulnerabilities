@@ -1,3 +1,1 @@
-
-In the event that an anonymous user is able to bypass biometric authentication to gain
-privileged access to application can result in loss of sensitive information.
+もし匿名ユーザーが生体認証をバイパスし、アプリケーションに特権的にアクセスできた場合、機密情報の漏えいにつながる可能性があります。
