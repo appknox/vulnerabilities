@@ -1,3 +1,1 @@
-
-Biometric authentication bypass is possible if application logic not using the crypto
-object in the biometric authentication callback.
+生体認証コールバックでcrypto objectを使用していないアプリケーションロジックでは、生体認証のバイパスが発生する可能性があります。
