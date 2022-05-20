@@ -1,1 +1,1 @@
-The application backend server doesn't have TRACE method enabled
+このアプリケーションのバックエンドサーバーでTRACEメソッドは有効になっていませんでした。
