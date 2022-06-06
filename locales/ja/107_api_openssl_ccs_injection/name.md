@@ -1,1 +1,1 @@
-OpenSSL CCS Injection Vulnerability
+OpenSSL CCS Injection の脆弱性
