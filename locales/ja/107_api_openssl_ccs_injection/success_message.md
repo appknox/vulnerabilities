@@ -1,1 +1,1 @@
-he the host is not vulnerable to OpenSSL CCS Injection
+このホストは OpenSSL CCS Injection に対して脆弱ではありません。
