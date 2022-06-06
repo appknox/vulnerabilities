@@ -1,14 +1,6 @@
-
-A web server commonly hosts several web applications on the same IP address,
-referring to each application via the virtual host.
-
-In an incoming HTTP request, web servers often dispatch the request to the
-target virtual host based on the value supplied in the Host header.
-Without proper validation of the header value, the attacker can supply invalid
-input to cause the web server to:
-
-- dispatch requests to the first virtual host on the list
-- cause a redirect to an attacker-controlled domain
-- perform web cache poisoning
-- manipulate password reset functionality
-
+ウェブサーバーは通常、同じIPアドレスで複数のウェブアプリケーションをホストし、バーチャルホストを介して各アプリケーションを参照します。
+HTTPリクエストにおいて、ウェブサーバーはHostヘッダの値に基づいて、対象のバーチャルホストにリクエストを送信することがあります。このヘッダーの値を適切に検証しない場合、攻撃者は無効な入力によってウェブサーバーに以下のような動作を引き起こさせることができます。
+・リスト上の最初のバーチャルホストへリクエストの送信
+・攻撃者が制御するドメインへのリダイレクトを引き起こす
+・webキャッシュポイズニングを実行
+・パスワードリセット機能の操作
