@@ -1,4 +1,1 @@
-
-To mitigate the Protocol Downgrade attack, one have to completely
-disable SSL 3.0 on the server side and server implementation of
-TLS_FALLBACK_SCSV will make downgrade attacks impossible.
+プロトコルダウングレード攻撃を軽減するためには、サーバー側で SSL 3.0 を完全に無効化し、サーバーに TLS_FALLBACK_SCSV を実装する必要があります。これにより、ダウングレード攻撃は不可能になります。
