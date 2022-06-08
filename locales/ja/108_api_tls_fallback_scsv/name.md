@@ -1,1 +1,1 @@
-TLS Protocol Downgrade Attack
+TLSプロトコルダウングレード攻撃
