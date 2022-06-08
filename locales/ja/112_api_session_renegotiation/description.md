@@ -1,5 +1,1 @@
-
-SSL/TLS Renegotiation an attacker can arrange to inject traffic into a
-legitimate client-server exchange such that the TLS server will accept
-it as if it came from the client. This may allow the attacker to execute
-operations on the server using the client's credentials
+SSL/TLS再ネゴシエーション(renegotiation)攻撃者は、正規のクライアント・サーバー通信にトラフィックを注入することで TLS サーバーがあたかもクライアントから来たかのようにトラフィックを受け入れるようにすることができます。これにより、攻撃者はクライアントの認証情報を使ってサーバー上で操作を実行する可能性があります。
