@@ -1,1 +1,1 @@
-Is the backend server vulnerable to SSL/TLS Renegotiation?
+バックエンドサーバーはSSL/TLS  再ネゴシエーションに対して脆弱ではありません。
