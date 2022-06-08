@@ -1,1 +1,1 @@
-- RootBear Library (https://github.com/scottyab/rootbeer: Simple to use root checking Android library and sample app)
+- RootBear Library - Simple to use root checking Android library and sample app (https://github.com/scottyab/rootbeer)
