@@ -1,0 +1,1 @@
+The application has properly implemented root detection.
