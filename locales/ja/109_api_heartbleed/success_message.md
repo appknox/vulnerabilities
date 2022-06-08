@@ -1,1 +1,1 @@
-The the host is not vulnerable to HEARTBLEED bug
+このホストは HEARTBLEED バグに対して脆弱ではありません。
