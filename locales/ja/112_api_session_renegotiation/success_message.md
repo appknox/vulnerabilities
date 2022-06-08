@@ -1,1 +1,1 @@
-The the host is not vulnerable to SSL/TLS Re-Negotiation
+このホストは SSL/TLS 再ネゴシエーションに対して脆弱ではありません。
