@@ -1,1 +1,1 @@
-Heartbleed Vulnerability
+Heartbleed の脆弱性
