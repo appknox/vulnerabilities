@@ -1,5 +1,1 @@
-
-To work with legacy servers, many TLS clients implement a downgrade path,
-in a first handshake attempt, offer the highest protocol version supported by
-the client; if this handshake fails, then retry (possibly repeatedly) with
-earlier protocol versions.
+レガシーサーバーと連携するために、多くのTLSクライアントはダウングレードのパスを実装しています。最初のハンドシェイクでは、クライアントがサポートする最新のプロトコルバージョンを提供し、このハンドシェイクが失敗したら、以前のプロトコルバージョンで（出来るだけ繰り返し）リトライします。
