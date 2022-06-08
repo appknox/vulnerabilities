@@ -1,5 +1,4 @@
-
-An attacker can passively record the traffic and later on decrypt it.
-Even though forward secrecy is enabled, the risk depends on how fast an
-attacker is able to perform the attack.
-Also, a server impersonation or a man-in-the-middle attack is possible
+攻撃者はトラフィックを受動的に記録し、後でそれを復号することができます。
+forward secrecyが有効であっても、そのリスクは攻撃者がどの程度の速さで攻撃を実行できるかによります。
+攻撃者がどの程度の速度で攻撃を実行できるかに依存します。
+また、サーバーのなりすましや中間者攻撃も可能です。
