@@ -1,13 +1,3 @@
-
-CRIME can be defeated by preventing the use of compression, and disabling the
-compression of SPDY requests, or by the website preventing the use of
-data compression on such transactions using the protocol negotiation features
-of the TLS protocol. As detailed in The Transport Layer Security (TLS)
-Protocol Version 1.2, the client sends a list of compression algorithms
-in its ClientHello message, and the server picks one of them and sends it
-back in its ServerHello message. The server can only choose a compression
-method the client has offered, so if the client only offers
-'none' (no compression), the data will not be compressed.
-
-Similarly, since 'no compression' must be allowed by all TLS clients, a
- server can always refuse to use compression.
+CRIMEは、圧縮の使用を防ぎ、SPDYリクエストの圧縮を無効にするか、またはウェブサイトがTLSプロトコルのプロトコルネゴシエーション機能を使用して、そのようなトランザクションでのデータ圧縮の使用を防止することによって無効にすることができます。
+The Transport Layer Security (TLS) Protocol Version 1.2 に詳述されているように、クライアントは ClientHello メッセージで圧縮アルゴリズムのリストを送信し、サーバーはそのうちのひとつを選択して ServerHello メッセージで送り返します。サーバーはクライアントが提示した圧縮方式しか選択できないため、 クライアントが「none」 (圧縮なし) しか提示しなかった場合、 データは圧縮されません。
+同様に、「圧縮なし」はすべてのTLSクライアントで許可されなければならないので、サーバは常に圧縮の使用を拒否することができます。
