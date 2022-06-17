@@ -1,3 +1,4 @@
+
 1.  Android keystore keyを `setUserAuthenticationRequired`と
     `setInvalidatedByBiometricEnrollment`を`true`にして作成します. さらに、
     `setUserAuthenticationParameters`の timeout param を `0`に設定します。
@@ -36,3 +37,4 @@
     SecretKey secretKey = ((SecretKey) keyStore.getKey(KEY_NAME, password));
     cipher.init(mode, secretKey);
     biometricPrompt.authenticate(promptInfo, new BiometricPrompt.CryptoObject(cipher));
+
