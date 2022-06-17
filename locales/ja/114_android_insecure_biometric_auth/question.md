@@ -1,1 +1,1 @@
-Has the application securely implemented Biometric authentication?
+アプリケーションに生体認証が安全に実装されていますか？

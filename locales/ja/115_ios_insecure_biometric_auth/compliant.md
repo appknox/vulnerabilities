@@ -1,12 +1,9 @@
+以下は実装のサンプルです:
 
-Here is a sample implementation:
+Keychain itemsにTouch ID保護を利用するには、`SecAccessControlCreateWithFlags()` API を使用して、security access control referenceを作成します。このAPIを使用する場合、user presence (`kSecAccessControlUserPresence`) ポリシーと、
+`kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly` の保護クラスを指定します。
+その後、データを挿入するときに、返された `SecAccessControlRef` をattributes dictionary (key: `kSecAttrAccessControl`) で使用できます。
 
-To utilise Touch ID protection for Keychain items, create a security access control
-reference using the `SecAccessControlCreateWithFlags()` API. When using this API,
-specify the user presence (`kSecAccessControlUserPresence`) policy and a protection
-class of `kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly`. You can then use the
-returned `SecAccessControlRef` in the attributes dictionary (key:
-`kSecAttrAccessControl`) when inserting the data.
 
     #define HEX_SERVICE @"HEX_EXAMPLE_SERVICE"
     #define HEX_SERVICE_MSG @"Authenticate to unlock the key"
@@ -50,7 +47,7 @@ returned `SecAccessControlRef` in the attributes dictionary (key:
         });
 
     }
-And now to obtain the data from the keychain, use the following:
+そして、keychainからデータを取得するために、以下を使用します:
 
     /* Lets get our secret from the keychain.
     * User will be asked for Touch ID or device passcode if Touch ID not available

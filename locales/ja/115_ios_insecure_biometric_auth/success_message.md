@@ -1,1 +1,1 @@
-The application does use proper Biometric authentication.
+このアプリケーションでは、適切な生体認証が使用されています。

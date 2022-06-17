@@ -1,17 +1,12 @@
+1.  Android keystore keyを `setUserAuthenticationRequired`と
+    `setInvalidatedByBiometricEnrollment`を`true`にして作成します. さらに、
+    `setUserAuthenticationParameters`の timeout param を `0`に設定します。
+2.  上記で作成したkeystore keyでcipherオブジェクトを初期化します。
+3.  前項のcipherオブジェクトを使用して `BiometricPrompt.CryptoObject`を作成します。
+4.  パラメータからcipherオブジェクトを取得し、このcipherオブジェクトを使用してsession keyやアプリケーションデータの復号に使用されるsecondary symmetric keyなど、他の重要なデータを復号化する `BiometricPrompt.AuthenticationCallback.onAuthenticationSucceeded`コールバックを実装します。
+5.  手順3.4で作成したcryptoオブジェクトとコールバックを使用して、 `BiometricPrompt.authenticate` 関数を呼び出します。
 
-1.  Create the Android keystore key with `setUserAuthenticationRequired` and
-    `setInvalidatedByBiometricEnrollment` set to `true`. Additionally,
-    `setUserAuthenticationParameters`'s timeout param should be set to `0`
-2.  Initialize cipher object with keystore key created above.
-3.  Create `BiometricPrompt.CryptoObject` using cipher object from previous step.
-4.  Implement `BiometricPrompt.AuthenticationCallback.onAuthenticationSucceeded`
-    callback which will retrieve cipher object from the parameter and use this cipher
-    object to decrypt some other crucial data such as session key, or a secondary
-    symmetric key which will be used to decrypt application data.
-5.  Call `BiometricPrompt.authenticate` function with crypto object and callbacks
-    created in steps 3 and 4.
-
-Here is a sample implementation:
+以下は実装のサンプルです:
 
     biometricPrompt = new BiometricPrompt(MyActivity.this, executor, new BiometricPrompt.AuthenticationCallback() {
         @Override
@@ -41,4 +36,3 @@ Here is a sample implementation:
     SecretKey secretKey = ((SecretKey) keyStore.getKey(KEY_NAME, password));
     cipher.init(mode, secretKey);
     biometricPrompt.authenticate(promptInfo, new BiometricPrompt.CryptoObject(cipher));
-

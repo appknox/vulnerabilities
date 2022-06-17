@@ -1,1 +1,1 @@
-The application has properly implemented biometric authentication
+このアプリケーションでは、適切に生体認証が実装されています。

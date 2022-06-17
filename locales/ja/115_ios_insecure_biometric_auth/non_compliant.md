@@ -1,6 +1,4 @@
-
-The vulnerable implementations usually included something similar to the code shown
-below:
+脆弱性のある実装には、通常、以下に示すようなコードが含まれています:
 
     LAContext *context = [[LAContext alloc] init];
     NSError *error = nil;
@@ -22,4 +20,3 @@ below:
     else {
     NSLog(@"Can not evaluate Touch ID");
     }
-

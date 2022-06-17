@@ -1,15 +1,3 @@
-
-The LAContext helper class is used for local authentication, it does not verify
-anything externally but relies on the iOS to present the relevant dialog and confirm
-authentication. Once a new LAContext instance is set up, the `evaluatePolicy` method is
-called, giving iOS a chance to present the relevant dialog and perform the
-authentication. Depending on the success or failure of the authentication itself, a
-`reply` block is invoked that includes a boolean indicating if it was successful or not.
-This response can be bypassed as we can intercept the operating systems response to
-the application and set the response as true, and original intended code block is
-executed, just like it would have under normal conditions.
-
-In order to implement biometric authentication in a secure manner, the keychain items
-should be protected with access control flags such as `kSecAccessControlBiometryAny`
-then a valid set of biometrics (either TouchID or FaceID) must be presented before the
-key is released from the Secure Enclave to decrypt the keychain entry itself.
+LAContext helper classはローカル認証に使用され、外部からの検証は行わず、iOS が関連するダイアログを表示し、認証を確認することに依存します。新しい LAContext インスタンスがセットアップされると、`evaluatePolicy` メソッドが呼び出され、iOS が関連するダイアログを表示して認証を実行する機会が与えられます。
+認証の成否に応じて、認証に成功したか否かを示すboolean値を含む`reply`ブロックが呼び出されます。このレスポンスは、アプリケーションに対するオペレーティングシステムのレスポンスを傍受し、レスポンスをtrueに設定することでバイパスされ、通常の条件と同様に本来の意図したコードブロックが実行されます。
+生体認証を安全に実装するためには、keychain itemsを kSecAccessControlBiometryAny などのwithaccess control flagsで保護し、有効な生体情報（TouchID または FaceID のいずれか）を提示してから鍵を解放してkeychain entry自体を復号化する必要があります。

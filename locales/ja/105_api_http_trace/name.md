@@ -1,1 +1,1 @@
-HTTP TRACE method is enabled
+HTTP TRACE メソッドが有効化されている

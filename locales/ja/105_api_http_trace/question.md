@@ -1,1 +1,1 @@
-Does the backend server have TRACE method enabled?
+バックエンドサーバーでTRACEメソッドが有効になっていますか？

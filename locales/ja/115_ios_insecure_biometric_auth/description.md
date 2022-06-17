@@ -1,3 +1,1 @@
-
-Biometric authentication allows the user to authenticate to an application using their
-biometric data (fingerprint or face recognition).
+バイオメトリクス認証は、ユーザーが自分の生体情報（指紋や顔など）を使ってアプリケーションを認証できるようにするものです。
