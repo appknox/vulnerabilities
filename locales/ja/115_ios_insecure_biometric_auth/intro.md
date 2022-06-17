@@ -1,3 +1,5 @@
+
 LAContext helper classはローカル認証に使用され、外部からの検証は行わず、iOS が関連するダイアログを表示し、認証を確認することに依存します。新しい LAContext インスタンスがセットアップされると、`evaluatePolicy` メソッドが呼び出され、iOS が関連するダイアログを表示して認証を実行する機会が与えられます。
 認証の成否に応じて、認証に成功したか否かを示すboolean値を含む`reply`ブロックが呼び出されます。このレスポンスは、アプリケーションに対するオペレーティングシステムのレスポンスを傍受し、レスポンスをtrueに設定することでバイパスされ、通常の条件と同様に本来の意図したコードブロックが実行されます。
-生体認証を安全に実装するためには、keychain itemsを kSecAccessControlBiometryAny などのwithaccess control flagsで保護し、有効な生体情報（TouchID または FaceID のいずれか）を提示してから鍵を解放してkeychain entry自体を復号化する必要があります。
+
+生体認証を安全に実装するためには、keychain itemsを `kSecAccessControlBiometryAny` などのwithaccess control flagsで保護し、有効な生体情報（TouchID または FaceID のいずれか）を提示してから鍵を解放してkeychain entry自体を復号化する必要があります。

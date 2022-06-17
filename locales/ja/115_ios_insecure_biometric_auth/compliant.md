@@ -1,9 +1,9 @@
+
 以下は実装のサンプルです:
 
 Keychain itemsにTouch ID保護を利用するには、`SecAccessControlCreateWithFlags()` API を使用して、security access control referenceを作成します。このAPIを使用する場合、user presence (`kSecAccessControlUserPresence`) ポリシーと、
 `kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly` の保護クラスを指定します。
 その後、データを挿入するときに、返された `SecAccessControlRef` をattributes dictionary (key: `kSecAttrAccessControl`) で使用できます。
-
 
     #define HEX_SERVICE @"HEX_EXAMPLE_SERVICE"
     #define HEX_SERVICE_MSG @"Authenticate to unlock the key"
