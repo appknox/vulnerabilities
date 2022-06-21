@@ -1,9 +1,5 @@
 
-OpenSSL’s flaw with ChangeCipherSpec processings makes it possible for
-malicious third parties to intermediate specific communication.
-Through this bug, attackers are able to enforce OpenSSL servers and clients
-to use weak key materials.
+OpenSSLのChangeCipherSpec処理に関する脆弱性により、悪意のある第三者が特定の通信を仲介することが可能となります。
+この脆弱性により、攻撃者はOpenSSLのサーバやクライアントに脆弱な鍵を使用させることが可能となります。
 
-There are risks of tampering with and exploits on contents and authentication
-information over encrypted communication, when the software uses
-the affected version of OpenSSL.
+OpenSSLの対象バージョンを使用した場合、暗号化通信上のコンテンツや認証情報が改ざんされ、悪用される危険性があります。

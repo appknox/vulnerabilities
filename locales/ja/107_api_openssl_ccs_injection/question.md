@@ -1,1 +1,1 @@
-Is the backend server vulnerable to OpenSSL CCS Injection?
+バックエンドサーバーはOpenSSL CCS Injectionの脆弱性がありますか？

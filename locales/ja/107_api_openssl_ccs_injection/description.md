@@ -1,4 +1,2 @@
 
-This vulnerability allows malicious intermediate nodes to intercept encrypted
-data and decrypt them while forcing SSL clients to use weak keys which are
-exposed to the malicious nodes.
+この脆弱性により、悪意のある中間ノードが暗号化されたデータを傍受し、悪意のあるノードに公開された弱い鍵をSSLクライアントに使用させながら復号化することが可能になります。
