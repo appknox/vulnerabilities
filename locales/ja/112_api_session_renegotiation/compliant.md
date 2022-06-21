@@ -1,2 +1,2 @@
 
-Disable SSL/TLS renegotiation in the server.
+サーバーの SSL/TLS 再ネゴシエーションを無効にしてください。

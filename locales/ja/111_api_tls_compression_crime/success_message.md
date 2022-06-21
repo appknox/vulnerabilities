@@ -1,1 +1,1 @@
-The the host is not vulnerable to TLS/SSL CRIME Attack
+このホストはTLS/SSL CRIME 攻撃に対して脆弱ではありません。

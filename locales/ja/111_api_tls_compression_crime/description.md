@@ -1,4 +1,2 @@
 
-CRIME (Compression Ratio Info-leak Made Easy) is a security exploit against
-secret web cookies over connections using the HTTPS and SPDY protocols
-that also use data compression
+CRIME (Compression Ratio Info-leak Made Easy) は、データ圧縮を行う HTTPS および SPDY プロトコルを使用した接続で、secret Web Cookie に対するセキュリティエクスプロイトです。

@@ -1,1 +1,1 @@
-The the host is not vulnerable to ROBOT Attack
+このホストはROBOT攻撃に対して脆弱ではありません。

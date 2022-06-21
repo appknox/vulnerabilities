@@ -1,1 +1,1 @@
-Is the backend server vulnerable to ROBOT Attack?
+バックエンドサーバーはROBOT攻撃の脆弱性がありますか？

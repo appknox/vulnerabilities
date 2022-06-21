@@ -1,1 +1,1 @@
-Is the backend server vulnerable to TLS/SSL CRIME Attack?
+バックエンドサーバーは TLS/SSL CRIME 攻撃の脆弱性がありますか？

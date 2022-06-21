@@ -1,1 +1,1 @@
-SSL/TLS Renegotiation Vulnerability
+SSL/TLS 再ネゴシエーションにおける脆弱性

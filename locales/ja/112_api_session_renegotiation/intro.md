@@ -1,7 +1,2 @@
 
-The attack exploits TLS's renegotiation feature, which allows a client and
-server who already have a TLS connection to negotiate new parameters,
-generate new keys, etc. Renegotiation is carried out in the existing TLS
-connection, with the new handshake packets being encrypted along with
-application packets. The difficulty is that they're not otherwise tied to
-the channel, which gives the attacker a window.
+この攻撃は、TLSの再ネゴシエーション機能を悪用したもので、すでにTLS接続を行っているクライアントとサーバーが、新しいパラメータのネゴシエーションや新しい鍵の生成などを行うことができるものです。再交渉は既存のTLS接続内で行われ、新しいハンドシェイクパケットはアプリケーションパケットと一緒に暗号化されます。他のチャンネルに結びつかず、攻撃者にウィンドウを与えてしまうことが難点です。

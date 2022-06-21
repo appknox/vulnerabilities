@@ -1,10 +1,6 @@
 
-Ensure you have no vulnerable applications on your SSL stack.
-If you do have any vulnerable applications, make sure that you applied the
-related fix released by the vendor (if any available).
+SSLスタックに脆弱性のあるアプリケーションがないことを確認してください。
+脆弱性のあるアプリケーションがある場合、ベンダーがリリースした関連修正プログラムを適用していることを確認してください（利用可能な場合）。
 
-RSA encryption modes are so risky that the only safe course of action is to
-disable them. These encryption modes also lack forward secrecy.
-Thus we strongly recommend, as a preventive measure, to disable all the
-TLS_RSA cipher suites on your SSL stack (except for the ones that have
-DHE or ECDHE in their name).
+RSA暗号化モードは非常にリスクがあるため、安全な対策としてはこれらを無効化することのみです。また、これらの暗号化モードは前方秘匿性に欠けます。
+したがって、予防措置として、SSL スタックの TLS_RSA 暗号スイート (ただし、DHE または ECDHE が名前に含まれているものを除く)をすべて無効にすることを強く推奨します。
