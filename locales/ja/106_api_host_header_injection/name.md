@@ -1,1 +1,1 @@
-HTTP Host Header Injection
+HTTP Host ヘッダインジェクション

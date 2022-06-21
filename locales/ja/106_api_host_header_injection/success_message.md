@@ -1,1 +1,1 @@
-The the host is not vulnerable to Host header injection attacks
+このホストはHostヘッダインジェクションに対して脆弱ではありません。

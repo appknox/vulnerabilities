@@ -1,5 +1,4 @@
 
-Do not trust the HOST header since this is user control.
-If you must use the host header as a mechanism for identifying the
-web server's location, it’s highly advised to make use of a **whitelist** of allowed hostnames.
+ユーザーコントロールのためこのHOSTヘッダを信用しないでください。
+もし、このHostヘッダをウェブサーバーのロケーションを特定する仕組みとして使用しないといけないのであれば、許可されたホスト名のホワイトリストの使用を強くお勧めします。
 

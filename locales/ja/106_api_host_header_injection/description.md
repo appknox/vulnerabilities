@@ -1,3 +1,2 @@
 
- Host header attack, also known as Host header injection, is a web attack where the attacker
- provides a false Host header to the web application.
+Hostヘッダ攻撃は、Hostヘッダインジェクションとしても知られ、攻撃者がウェブアプリケーションに偽のHostヘッダを提供するウェブ攻撃です。

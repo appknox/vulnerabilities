@@ -1,1 +1,1 @@
-Is the backend server vulnerable to Host header injection?
+バックエンドサーバーはHostヘッダインジェクションの脆弱性がありますか？
