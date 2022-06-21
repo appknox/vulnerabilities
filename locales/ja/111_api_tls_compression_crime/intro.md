@@ -1,1 +1,3 @@
-ROBOTは Return Of Bleichenbacher’s Oracle Threatの脆弱性としても知られ、インターネット上の誰でもがTLSサーバーの秘密鍵なしでRSA復号化および署名処理を実行できる脆弱性です。
+
+ROBOTは Return Of Bleichenbacher’s Oracle Threatの脆弱性としても知られ、インターネット上の誰でもがTLSサーバーの秘密鍵なしでRSA復号化および署名処理を実行できる脆弱性です。Expression, Strong Oracle, means
+that the attack is possible by collecting less than a million packets.
