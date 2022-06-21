@@ -1,1 +1,1 @@
-The the host is not vulnerable to TLS Protocol Downgrade Attack
+このホストはTLSプロトコルのダウングレード攻撃に対して脆弱ではありません。

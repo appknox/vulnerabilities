@@ -1,1 +1,1 @@
-Is the backend server vulnerable to HEARTBLEED bug?
+バックエンドサーバーは HEARTBLEED バグの脆弱性がありますか？

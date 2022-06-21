@@ -1,5 +1,3 @@
 
-The Heartbleed Bug is a serious vulnerability in the popular OpenSSL
-cryptographic software library.
-This weakness allows stealing the information protected, under normal
-conditions, by the SSL/TLS encryption used to secure the Internet.
+Heartbleedバグは、一般的なOpenSSL暗号ソフトウェアライブラリに存在する深刻な脆弱性です。
+この脆弱性により、通常であればインターネットの安全性を確保するために使用されるSSL/TLS暗号によって保護されている情報が盗まれる可能性があります。

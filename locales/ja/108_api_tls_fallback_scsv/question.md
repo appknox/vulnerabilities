@@ -1,1 +1,1 @@
-Is the backend server vulnerable to TLS Protocol Downgrade Attack?
+バックエンドサーバーはTLSプロトコルダウングレード攻撃の脆弱性がありますか？
