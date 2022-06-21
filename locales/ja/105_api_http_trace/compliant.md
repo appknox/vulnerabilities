@@ -1,32 +1,33 @@
-Disable the TRACE method on your Webserver.
 
-Following are the configurations you can do depending on what kind of server is used:
+ウェブサーバーのTRACEメソッドを無効にしてください。
+
+使用するサーバーの種類によって、以下のような設定が可能です:
 
 Apache
 ======
-To disable these methods, add the following lines for each virtual host in your configuration file :
+これらのメソッドを無効にするには、各virtual hostの設定ファイルに以下の行を追加してください :
 
     RewriteEngine on
     RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK)
     RewriteRule .* – [F]
 
-Alternatively, note that Apache versions 1.3.34, 2.0.55, and 2.2 support disabling the TRACE method natively via the ‘TraceEnable’ directive.
+あるいは、Apacheのバージョン 1.3.34, 2.0.55, 2.2 は ‘TraceEnable’ ディレクティブを介してTRACE メソッドをネイティブに無効にすることをサポートしていることに留意してください。
 
 Microsoft IIS
 ==============
-The TRACK method can be added to Microsoft’s URLScan DenyVerbs section. It should not be in the AllowVerbs section in the urlscan.ini file.
+TRACKメソッドは、MicrosoftのURLScan DenyVerbs セクションに追加することができます。urlscan.ini fileのAllowVerbs セクションにするべきではありません。
 
-Use the URL Scan Tool to deny HTTP TRACE requests or to permit only the methods needed to meet site requirements and policy. The default configurations of Urlscan 2.5 (both baseline and SRP) only permit GET and HEAD methods.
+URLスキャンツールを使用して、HTTP TRACEリクエストを拒否したり、サイトの要件やポリシーを満たすために必要なメソッドのみを許可することができます。Urlscan 2.5（baselineとSRP）のデフォルト設定は、GETとHEADのメソッドのみを許可します。
 
 NGINX
 ======
-The majority of web sites only require the GET, HEAD & POST HTTP methods. Enabling the TRACE or DELETE method can pose a risk to your server leaving it vulnerable to a Cross-Site Tracking attack.
+ほとんどの Web サイトは、GET、HEAD、POST、 HTTP のメソッドのみを必要とします。TRACEまたはDELETEメソッドを有効にすると、サーバーがクロスサイトトラッキング攻撃にさらされる危険性があります。
 
-Modify the default.conf file and add the following under “server block” to mitigate the risk of a Cross-Site Tracking attack.
+クロスサイトトレーシング攻撃を軽減するために、default.confファイルを修正し「server block」の下に以下を追加します。 
 
     if ($request_method !~ ^(GET|HEAD|POST)$ )
     {
         return 405;
     }
 
-Modifying the code will return a “405 – Not Allowed” if anyone attempts to use the DELETE, TRACE, PUT or OPTIONS method.
+DELETE、TRACE、PUT、OPTIONSメソッドを使用しようとすると、「405 - Not Allowed」が返されるよう修正します。

@@ -1,1 +1,1 @@
-Insecure Biometric Authentication
+安全でない生体認証

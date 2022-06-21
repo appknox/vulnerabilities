@@ -1,6 +1,4 @@
 
-The HTTP TRACE method is normally used to return the full HTTP request back to
-the requesting client for proxy-debugging purposes.
-An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to
-cause a client to issue a TRACE request and capture the client's cookies.
-This effectively results in a Cross-Site Scripting attack.
+HTTP TRACE メソッドは通常、プロキシデバッグの目的で、リクエストしたクライアントに完全な HTTP リクエストを返すために使用されます。
+攻撃者は、XMLHTTP、ActiveX、XMLDOMを使用してWebページを作成し、クライアントにTRACEリクエストを発行させ、クライアントのCookieを取得することができます。
+これは事実上、クロスサイトスクリプティング攻撃となります。
