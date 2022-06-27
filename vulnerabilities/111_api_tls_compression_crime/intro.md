@@ -1,5 +1,2 @@
 
-ROBOT also known as Return Of Bleichenbacher's Oracle Threat vulnerability that
-allows anyone on the Internet to perform RSA decryption and signing operations
-without the private key of a TLS server. Expression, Strong Oracle, means
-that the attack is possible by collecting less than a million packets.
+CRIME is a security exploit against secret web cookies over connections using the HTTPS and SPDY protocols that also use data compression. When used to recover the content of secret authentication cookies, it allows an attacker to perform session hijacking on an authenticated web session, allowing the launching of further attacks.
