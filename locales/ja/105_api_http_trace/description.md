@@ -1,5 +1,2 @@
-
-HTTP TRACE method is enabled on this web server.
-In the presence of other cross-domain vulnerabilities in web browsers,
-sensitive header information could be read from any domains that support
-the HTTP TRACE method.
+HTTP TRACEメソッドがウェブサーバーで有効になっています。
+ウェブブラウザ内に他のクロスドメインの脆弱性が存在する場合に、HTTP TRACEメソッドをサポートするどのドメインからも、機密性の高いヘッダ情報を読み取ることが可能です。　
