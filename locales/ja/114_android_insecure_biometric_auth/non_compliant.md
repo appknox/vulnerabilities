@@ -1,3 +1,4 @@
+
 脆弱性のある実装には、通常、以下に示すようなコードが含まれています:
 
     biometricPrompt = new BiometricPrompt(MyActivity.this, executor, new BiometricPrompt.AuthenticationCallback() {
