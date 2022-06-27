@@ -1,4 +1,3 @@
-
 脆弱性のある実装には、通常、以下に示すようなコードが含まれています:
 
     biometricPrompt = new BiometricPrompt(MyActivity.this, executor, new BiometricPrompt.AuthenticationCallback() {
@@ -12,6 +11,5 @@
     ...
     biometricPrompt.authenticate(promptInfo);
 
-The code listed above does not use the CryptoObject passed in the
-`AuthenticationResult`, instead it just assumes that authentication was successful
-since `onAuthenticationSucceeded` was called.
+上記のコードでは、`AuthenticationResult`で渡されたCryptoObjectは使用しません。
+代わりに、`onAuthenticationSucceeded` が呼び出されたので、認証が成功したと仮定しています。
