@@ -1,2 +1,2 @@
 
-CRIME is a security exploit against secret web cookies over connections using the HTTPS and SPDY protocols that also use data compression. When used to recover the content of secret authentication cookies, it allows an attacker to perform session hijacking on an authenticated web session, allowing the launching of further attacks.
+CRIMEは、データ圧縮を行う HTTPS および SPDY プロトコルを使用した接続で、秘密 Web Cookie に対するセキュリティエクスプロイトです。秘密認証クッキーの内容を復元することで、攻撃者は認証されたWebセッションでセッションハイジャックを行うことができ、さらなる攻撃の開始を可能にします。
