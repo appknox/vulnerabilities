@@ -8,7 +8,6 @@
     Access-Token: testuser
     Connection: close
     Accept: */*
-    User-Agent: Chrome/5.5.1 (iPhone/10.0.2; iPhone OS; en_IN;)
     Content-Length: 40
 
     POST /api/sessions HTTP/1.1
@@ -18,7 +17,6 @@
     Access-Token: 560192
     Connection: close
     Accept: */*
-    User-Agent: Chrome/5.5.1 (iPhone/10.0.2; iPhone OS; en_IN;)
     Content-Length: 40
 
     POST /api/sessions HTTP/1.1
@@ -28,7 +26,6 @@
     Access-Token: 5d9c68c6c50ed3d02a2fcf54f63993b6
     Connection: close
     Accept: */*
-    User-Agent: Chrome/5.5.1 (iPhone/10.0.2; iPhone OS; en_IN;)
     Content-Length: 40
 
 2) アプリケーションは、バックエンドでセッショントークンを無効にしません。したがって、ユーザーがログアウトした後でも、有効期限が切れたトークンを使用して正常なリクエストを行い、ユーザーのリソースにアクセスすることが可能です。
