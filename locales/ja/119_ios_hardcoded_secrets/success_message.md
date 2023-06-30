@@ -1,1 +1,1 @@
-No hardcoded keys or credentials were found
+ハードコードされたキーや認証情報は見つかりませんでした。

@@ -1,1 +1,1 @@
-Hardcoded Secrets
+ハードコーディングされたシークレット

@@ -1,2 +1,2 @@
 
-Hardcoded secrets can allow a malicious actor to access private resources that may contain sensitive information leading to data breaches and the exposure of users' personal data which may lead to loss in business.
+ハードコードされた機密情報は、悪意のある攻撃者の機密情報を含むプライベートリソースに対するアクセスを許す可能性があります。これはデータ侵害やユーザーの個人情報の漏えいにつながり、組織の経済的損失となる可能性があります。

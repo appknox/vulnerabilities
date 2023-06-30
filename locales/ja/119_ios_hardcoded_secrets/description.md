@@ -1,2 +1,2 @@
 
-Malicious actors could take advantage of the hardcoded secrets to access private databases, leading to data breaches and the exposure of users' personal data.
+悪意のある攻撃者はハードコードされた機密情報を利用してプライベートなデータベースにアクセスでき、データ侵害やユーザーの個人情報の漏えいにつながる可能性があります。

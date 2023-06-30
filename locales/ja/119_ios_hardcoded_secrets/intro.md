@@ -1,2 +1,2 @@
 
-This vulnerability arises because of the insecure practice to hardcode secrets in the application package, that includes API keys, server authentication credentials, etc.
+この脆弱性はAPIキーやサーバー認証情報の機密情報をアプリケーションのパッケージにハードコードするという安全でないプラクティスにより発生します。
