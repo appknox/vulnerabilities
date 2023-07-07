@@ -1,1 +1,0 @@
-No hardcoded keys or credentials were found.
