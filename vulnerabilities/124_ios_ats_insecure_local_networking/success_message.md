@@ -1,0 +1,1 @@
+ATS is properly configured for local networking.

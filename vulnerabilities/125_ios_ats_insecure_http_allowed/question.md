@@ -1,0 +1,1 @@
+Is insecure HTTP protocol allowed?

@@ -1,0 +1,1 @@
+Transport Layer Security（TLS）は適切に設定されています。

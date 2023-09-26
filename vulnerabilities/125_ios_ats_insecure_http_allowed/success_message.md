@@ -1,0 +1,1 @@
+ATS is properly configured to use HTTPS.

@@ -1,0 +1,1 @@
+Is ATS properly configured for local networking ?

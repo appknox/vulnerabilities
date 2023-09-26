@@ -1,0 +1,2 @@
+
+NSExceptionAllowsInsecureHTTPLoads キーにより、例外ドメインが安全でない HTTP プロトコルを介して通信することが可能です。
