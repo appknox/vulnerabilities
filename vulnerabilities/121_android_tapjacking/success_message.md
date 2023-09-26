@@ -1,0 +1,1 @@
+The application has implemented proper security checks and measures in place and hence is not vulnerable to tapjacking.
