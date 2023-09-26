@@ -1,0 +1,1 @@
+アプリケーションは android:filterTouchesWhenObscured="true" または setFilterTouchesWhenObscured(true) を設定し、タップジャッキングに対しての保護をしていますか？

@@ -1,0 +1,1 @@
+Does the applications protect against tapjacking by using android:filterTouchesWhenObscured="true" or  setFilterTouchesWhenObscured(true)?
