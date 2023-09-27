@@ -1,0 +1,2 @@
+
+Keyboard caching is designed to enhance the user experience by making typing faster and more convenient. The keyboard cache typically stores information such as frequently used words, phrases, and personal data like contact names or email addresses. However, like any data stored on your device, there is a potential risk if someone gains unauthorized access to your device or if a malicious app(third party keyboards) is able to exploit the keyboard cache.

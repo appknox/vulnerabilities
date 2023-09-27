@@ -1,0 +1,1 @@
+Does the application’s input fields cache the user’s input?
