@@ -1,0 +1,1 @@
+The application takes proper security measure to disable caching for sensitive input fields and hence is not vulnerable to keyboard cache exposure.
