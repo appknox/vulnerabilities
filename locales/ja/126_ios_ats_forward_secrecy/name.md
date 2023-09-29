@@ -1,0 +1,1 @@
+Perfect Forward Secrecy の無効化

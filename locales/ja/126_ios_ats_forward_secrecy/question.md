@@ -1,0 +1,1 @@
+Perfect Forward Secrecy はオーバーライドされていますか？

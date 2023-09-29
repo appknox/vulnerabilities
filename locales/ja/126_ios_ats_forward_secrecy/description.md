@@ -1,0 +1,2 @@
+
+NSExceptionRequiresForwardSecrecy は、Perfect Forward Secrecy をオーバーライドするかどうかを示します。

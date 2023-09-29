@@ -1,0 +1,1 @@
+ATS は Perfect Forward Secrecy を使用するように適切に構成されています。

@@ -1,0 +1,1 @@
+Transport Layer Security（TLS）のバージョンは適切に設定されていますか？

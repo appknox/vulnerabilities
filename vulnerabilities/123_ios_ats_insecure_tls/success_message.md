@@ -1,0 +1,1 @@
+Transport Layer Security (TLS) is properly configured.
