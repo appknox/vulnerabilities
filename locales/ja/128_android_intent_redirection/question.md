@@ -1,0 +1,1 @@
+Is the application vulnerable to intent redirection vulnerability?

@@ -1,0 +1,1 @@
+Application is not vulnerable to intent redirection vulnerability.
