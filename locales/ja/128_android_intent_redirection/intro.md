@@ -1,3 +1,2 @@
 
-An intent redirection occurs when an attacker can partly or fully control the contents of an
-intent used to launch a new component in the context of a vulnerable app.
+インテントのリダイレクトは、脆弱なアプリのコンテキストで新しいコンポーネントを起動するために使用されるインテントの内容を攻撃者が部分的または完全に制御できる場合に発生します。

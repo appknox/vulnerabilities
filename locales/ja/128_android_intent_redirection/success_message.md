@@ -1,1 +1,1 @@
-Application is not vulnerable to intent redirection vulnerability.
+アプリケーションはインテントリダイレクトの脆弱性に対して脆弱性ではありません。

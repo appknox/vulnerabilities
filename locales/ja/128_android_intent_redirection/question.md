@@ -1,1 +1,1 @@
-Is the application vulnerable to intent redirection vulnerability?
+アプリケーションはインテントリダイレクトの脆弱性に対して脆弱ですか？

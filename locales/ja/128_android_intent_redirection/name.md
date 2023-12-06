@@ -1,1 +1,1 @@
-Intent Redirection Vulnerability
+インテントリダイレクトの脆弱性

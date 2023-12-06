@@ -1,3 +1,2 @@
 
-The impact can vary. An attacker might execute internal functionality in the vulnerable
-app, or it might access private components like unexported ContentProvider objects.
+影響はさまざまです。攻撃者は、脆弱なアプリの内部機能を実行することや、エクスポートされていない ContentProvider オブジェクトのような非公開コンポーネントにアクセスすることができます。

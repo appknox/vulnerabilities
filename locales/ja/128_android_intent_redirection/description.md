@@ -1,6 +1,2 @@
 
-The application is publicly exposing a feature that uses an externally provided intent to
-start a new component. This allows an attacker to control the contents of an intent used
-to launch the new component, thus giving the attacker the ability to access private
-components of the application. Depending on the features privately exposed, this can lead to
-further exploitations, sensitive data disclosure, or even persistent code execution.
+アプリケーションは、外部から提供されたインテントを使用して新しいコンポーネントを開始する機能を公開しています。これにより攻撃者は、新しいコンポーネントを起動するために使用されるインテントの内容を制御することができ、その結果攻撃者はアプリケーションのプライベートなコンポーネントにアクセスできるようになります。プライベートに公開された機能によっては、さらなる悪用や機密データの漏えい、あるいは永続的なコード実行につながる可能性があります。
