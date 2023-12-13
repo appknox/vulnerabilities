@@ -1,0 +1,2 @@
+
+Weak PRNG (Pseudorandom Number Generator) vulnerabilities within Android applications can have far-reaching business consequences. Such vulnerabilities can lead to data breaches and unauthorized access, undermining user trust and potentially violating regulatory requirements. Financial losses may result from legal actions, compensations, and operational disruptions caused by security incidents. Moreover, a compromised reputation can lead to decreased user adoption, loss of competitive advantage, and even app removal from stores
